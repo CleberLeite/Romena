@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:layout_marginBottom="15dp"
+    android:outlineAmbientShadowColor="@color/ColorBlueGray300"
+    android:outlineSpotShadowColor="@color/ColorBlueGray300"
+    app:cardCornerRadius="12dp"
+    tools:targetApi="p">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/colorTag"
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/exo2_medium"
+                android:textColor="@color/ColorBlueGray800"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/exo2_medium"
+                android:textColor="@color/ColorBlueGray800"
+                android:textFontWeight="600"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/available_ticket_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo2_medium"
+                android:textColor="@color/ColorBlueGray500"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_selector"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:visibility="gone"
+                android:background="@drawable/back_rectangle_rounded_50"
+                android:backgroundTint="@color/PrimaryBackground"
+                android:layout_marginHorizontal="15dp"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:text="@string/choose_sector"
+                android:textFontWeight="600"
+                android:layout_marginTop="30dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:src="@drawable/border_radius_sectors_card"
+        tools:ignore="ContentDescription" />
+
+</androidx.cardview.widget.CardView>

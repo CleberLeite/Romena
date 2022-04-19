@@ -1,0 +1,21 @@
+
+l
+java:S1149F"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+>
+java:S11852"(Remove this method to simply inherit it.(ßìê¯
+E
+java:S1874H"/Remove this use of "execute"; it is deprecated.(“í”
+D
+java:S1874K"/Remove this use of "Handler"; it is deprecated.(Êà‹
+h
+java:S3776o"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(ìÏœª
+<	java:S131p""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+G
+java:S1481s",Remove this unused "success" local variable.(Ğ¾Šıÿÿÿÿ
+F
+java:S1874"/Remove this use of "execute"; it is deprecated.(’÷ş
+E
+java:S1066~"/Merge this if statement with the enclosing one.(¹É¢‡
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ—àıÿÿÿÿ
+f
+java:S1301p"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

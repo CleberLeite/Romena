@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_shape"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.frf.app.fragments.BottomSheetFilterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:textAlignment="textStart"
+            android:text="@string/filtre"
+            android:textColor="@color/ColorBlueGray800"
+            android:textSize="@dimen/text_19"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="@dimen/margin_28"
+            android:layout_height="@dimen/margin_28"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_close" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:fontFamily="@font/exo2_semi_bold"
+        android:text="@string/selecteaz_m_rimea"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorBlueGray800"
+        android:textSize="@dimen/text_13"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/hozontalScrollSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none">
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/txt_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_20"
+        android:fontFamily="@font/exo2_semi_bold"
+        android:text="Culoare"
+        android:textAlignment="textStart"
+        android:visibility="gone"
+        android:textColor="@color/ColorBlueGray800"
+        android:textSize="@dimen/text_13"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/hozontalScrollColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none">
+
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:fontFamily="@font/exo2_semi_bold"
+        android:text="Preț"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorBlueGray800"
+        android:textSize="@dimen/text_13"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/textMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:textAlignment="textStart"
+            android:textColor="@color/ColorBlueGray800"
+            android:textSize="@dimen/text_13"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/ColorBlueGray800"
+            android:textSize="@dimen/text_13"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+        android:id="@+id/crystalRangeSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxHeight="8dp"
+        android:minHeight="8dp"
+        app:bar_color="@color/ColorTicketsCodBarras"
+        app:bar_highlight_color="@color/ColorTicketsCodBarras"
+        app:corner_radius="10"
+        app:data_type="_integer"
+        app:gap="16"
+        app:left_thumb_color="@color/PrimaryBackground"
+        app:left_thumb_color_pressed="@color/PrimaryBackground"
+        app:max_value="100"
+        app:min_value="0"
+        app:right_thumb_color="@color/PrimaryBackground"
+        app:right_thumb_color_pressed="@color/PrimaryBackground" />
+
+    <RelativeLayout
+        android:id="@+id/btn_buy_enter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_56"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginRight="@dimen/margin_30"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/back_rectangle_rounded_50"
+        android:backgroundTint="@color/ColorBackgroundButton"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="@string/aplic_filtre"
+                android:textColor="@color/PrimaryText"
+                android:textSize="@dimen/text_13" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

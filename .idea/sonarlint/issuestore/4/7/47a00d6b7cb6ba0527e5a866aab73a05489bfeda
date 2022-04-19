@@ -1,0 +1,35 @@
+
+–
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Å²¯&
+>
+java:S11858"(Remove this method to simply inherit it.(ßìê¯
+V	java:S125J"<This block of commented-out lines of code should be removed.(ÝÜªïúÿÿÿÿ
+V	java:S125Z"<This block of commented-out lines of code should be removed.(ÖðÔÀøÿÿÿÿ
+D
+java:S1185Ä"(Remove this method to simply inherit it.(ý¤Ðüùÿÿÿÿ
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(û²­®ýÿÿÿÿ
+>
+java:S1185Ê"(Remove this method to simply inherit it.(û®«S
+R	java:S125Ì"<This block of commented-out lines of code should be removed.(‚…Ñ©
+V
+java:S1161Ù":Add the "@Override" annotation above this method signature(ž³—úøÿÿÿÿ
+V
+java:S1161á":Add the "@Override" annotation above this method signature(çÛ‹˜úÿÿÿÿ
+Y
+java:S1874å"=Remove this use of "setSystemUiVisibility"; it is deprecated.(°×—…þÿÿÿÿ
+V
+java:S1161ì":Add the "@Override" annotation above this method signature(îµõøÿÿÿÿ
+T
+java:S1874õ"=Remove this use of "getSystemUiVisibility"; it is deprecated.(ô¤Ù”
+T
+java:S1874ù"=Remove this use of "setSystemUiVisibility"; it is deprecated.(ÊËÅ×
+[
+java:S1874ù"DRemove this use of "SYSTEM_UI_FLAG_LAYOUT_STABLE"; it is deprecated.(ÊËÅ×
+Q	java:S125ÿ"<This block of commented-out lines of code should be removed.(‹Ïæ
+W	java:S125ˆ"<This block of commented-out lines of code should be removed.( ³³¯þÿÿÿÿ
+Q
+java:S1068/"6Remove this unused "mfragmentViewModel" private field.(Ô¤ç•ùÿÿÿÿ
+M
+java:S10681"8Remove this unused "OP_GET_SHOP_HOMEPAGE" private field.(¥ßºg
+U
+java:S10682":Remove this unused "OP_GET_SHOP_CATEGORIES" private field.(ûáÝúÿÿÿÿ

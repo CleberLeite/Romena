@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/margin_32"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_marginRight="@dimen/margin_5"
+    android:layout_marginBottom="@dimen/margin_10">
+
+    <Space
+        android:id="@+id/spacer_start"
+        android:layout_width="@dimen/margin_20"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_item_news"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_32"
+        android:layout_gravity="center|end"
+        android:textAllCaps="false"
+        android:fontFamily="@font/exo_2_bold"
+        android:textColor="@color/PrimaryText"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textSize="@dimen/text_12"
+        android:text="Mai Puține Subiecte +"
+        android:button="@android:color/transparent"
+        android:background="@drawable/item_radio_flat_blue" />
+
+    <Space
+        android:id="@+id/spacer_end"
+        android:layout_width="@dimen/margin_20"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+
+m
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¬‚çÃýÿÿÿÿ
+N
+java:S1117J"8Rename "data" which hides the field declared at line 38.(ˆäÖ±
+N
+java:S1874L"3Remove this use of "getDrawable"; it is deprecated.(…¹ÈŸùÿÿÿÿ
+K
+java:S1874M"0Remove this use of "getColor"; it is deprecated.(„„‰Üúÿÿÿÿ
+I
+java:S1874s"3Remove this use of "getDrawable"; it is deprecated.(Ê•œ÷
+I
+java:S1874s"3Remove this use of "getDrawable"; it is deprecated.(Ê•œ÷
+J
+java:S1874y"/Remove this use of "execute"; it is deprecated.(ó‹Îƒýÿÿÿÿ
+J
+java:S1874{"/Remove this use of "execute"; it is deprecated.(žšýŠÿÿÿÿÿ
+I
+java:S1874}"3Remove this use of "getDrawable"; it is deprecated.(žâŸ®
+F
+java:S1874ƒ"/Remove this use of "execute"; it is deprecated.(¥§Õ©
+K
+java:S1874…"/Remove this use of "execute"; it is deprecated.(¥¨ù™þÿÿÿÿ
+J
+java:S1874‡"3Remove this use of "getDrawable"; it is deprecated.( ëóÂ
+_
+java:S1659å"HDeclare "llImgsRight" and all following declarations on a separate line.(ªì˜†
+R	java:S125Û"<This block of commented-out lines of code should be removed.(ìðŒ½
+R	java:S125ò"<This block of commented-out lines of code should be removed.(šýšÇ
+z
+java:S1319-"dThe type of "data" should be an interface such as "List" rather than the implementation "ArrayList".(ä½’š

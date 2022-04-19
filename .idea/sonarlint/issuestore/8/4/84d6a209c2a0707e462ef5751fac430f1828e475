@@ -1,0 +1,41 @@
+
+l
+java:S1149Z"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(éÏ‹Ë
+m
+java:S1149…"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ä’µé
+D
+java:S1874@".Remove this use of "<init>"; it is deprecated.(“„¯ò
+c	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¿çå
+b	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ•d
+c	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÁÁí
+Z
+java:S3358k"DExtract this nested ternary operation into an independent statement.(ğ–­ø
+_
+java:S3358l"DExtract this nested ternary operation into an independent statement.(ôÑ®øÿÿÿÿÿ
+I
+java:S1874q"3Remove this use of "setPriority"; it is deprecated.(ô¥Ù 
+J
+java:S1874q"4Remove this use of "PRIORITY_MAX"; it is deprecated.(ô¥Ù 
+d	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä’µé
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÍö²
+:
+java:S2119Ë"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+d	java:S100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÿıË
+K
+java:S1874Ô"/Remove this use of "execute"; it is deprecated.(ÍšÛËûÿÿÿÿ
+=	java:S131Ş""Add a default case to this switch.(úœŞ¹ûÿÿÿÿ
+d	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åæí
+:
+java:S2119«"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+c
+java:S1192£"GDefine a constant instead of duplicating this literal "idPush" 3 times.(‰„×…ÿÿÿÿÿ
+a
+java:S1192l"FDefine a constant instead of duplicating this literal "nBody" 3 times.(ôÑ®øÿÿÿÿÿ
+^
+java:S1192k"HDefine a constant instead of duplicating this literal "nTittle" 3 times.(ğ–­ø
+l	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÌı„øÿÿÿÿ
+l	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÌı„øÿÿÿÿ
+j
+java:S11048"OMake gcm a static final constant or non-public and provide accessors if needed.(Ú¸Øøÿÿÿÿ
+D
+java:S14448")Make this "public static gcm" field final(Ú¸Øøÿÿÿÿ

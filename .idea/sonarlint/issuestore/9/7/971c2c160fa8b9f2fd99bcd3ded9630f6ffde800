@@ -1,0 +1,217 @@
+
+œ
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(É°êáúÿÿÿÿ
+m
+java:S1149Ó"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+>
+java:S1185d"(Remove this method to simply inherit it.(ßìê¯
+8	java:S131£""Add a default case to this switch.(‹â«Ê
+j
+java:S3776Õ"SRefactor this method to reduce its Cognitive Complexity from 316 to the 15 allowed.(”Í«
+O
+java:S1874˜"3Remove this use of "getDrawable"; it is deprecated.(û£¶·üÿÿÿÿ
+J
+java:S1874š"3Remove this use of "getDrawable"; it is deprecated.(ƒ¼¾î
+J
+java:S1874¸"3Remove this use of "getDrawable"; it is deprecated.(–Âï
+J
+java:S1874º"3Remove this use of "getDrawable"; it is deprecated.(œš÷
+J
+java:S1874Ã"3Remove this use of "getDrawable"; it is deprecated.(–Âï
+
+java:S1186ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•Ã‡Ïûÿÿÿÿ
+
+java:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ú»ª½ùÿÿÿÿ
+˜
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö„¢Œ
+˜
+java:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı€Ù§
+
+java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(óØûüÿÿÿÿ
+
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©§ıÒøÿÿÿÿ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áìîßşÿÿÿÿ
+˜
+java:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¹ù“
+O
+java:S1874Ö"3Remove this use of "getDrawable"; it is deprecated.(û£¶·üÿÿÿÿ
+J
+java:S1874ß"3Remove this use of "getDrawable"; it is deprecated.(ƒ¼¾î
+O
+java:S1874â"3Remove this use of "getDrawable"; it is deprecated.(û£¶·üÿÿÿÿ
+
+java:S1186¿"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•Ã‡Ïûÿÿÿÿ
+
+java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ú»ª½ùÿÿÿÿ
+˜
+java:S1186é"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö„¢Œ
+˜
+java:S1186í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı€Ù§
+
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(óØûüÿÿÿÿ
+˜
+java:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£ÿÚÃ
+
+java:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©§ıÒøÿÿÿÿ
+
+java:S1186×"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áìîßşÿÿÿÿ
+˜
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ¹ù“
+R	java:S125Ñ"<This block of commented-out lines of code should be removed.(×ÀÈ†
+R	java:S125Ø"<This block of commented-out lines of code should be removed.(×ÀÈ†
+K
+java:S1874÷"/Remove this use of "execute"; it is deprecated.(Ğ½öùÿÿÿÿ
+<
+java:S1659ü" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659Š" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+h
+java:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(¥ğ
+O
+java:S1874²"9Remove this use of "getDefaultDisplay"; it is deprecated.(ò¿©5
+H
+java:S1874²"2Remove this use of "getMetrics"; it is deprecated.(ò¿©5
+R	java:S125³"<This block of commented-out lines of code should be removed.(Ø„é
+d
+java:S1871Ú"MThis branch's code block is the same as the block for the branch on line 822.(å¥‡
+l
+java:S3252Ê"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ù¬Ï°şÿÿÿÿ
+g
+java:S3252Ë"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ëËğ¹
+<
+java:S1659" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+r
+java:S3923–"[Remove this conditional structure or edit its code blocks so that they're not all the same.(³£¯÷
+=	java:S131¾""Add a default case to this switch.(… Şúÿÿÿÿ
+=	java:S131Ê""Add a default case to this switch.(… Şúÿÿÿÿ
+F
+java:S1874Ü"/Remove this use of "Handler"; it is deprecated.(’Ú©Š
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186´"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+F
+java:S1874“"/Remove this use of "Handler"; it is deprecated.(¤‡¥Â
+˜
+java:S1186˜"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(„éæş
+˜
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò¦Ú€
+
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìºÇ·şÿÿÿÿ
+
+java:S1186Ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ™¢§ûÿÿÿÿ
+
+java:S1186É"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186Î"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+W	java:S125å"<This block of commented-out lines of code should be removed.(Û¬Ó¶ùÿÿÿÿ
+K
+java:S1874ê"/Remove this use of "execute"; it is deprecated.(ä© Øûÿÿÿÿ
+<
+java:S1659ï" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659ü" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+K
+java:S1874»	"/Remove this use of "execute"; it is deprecated.(Û¶¾ÿÿÿÿÿ
+K
+java:S1874Ê	"/Remove this use of "execute"; it is deprecated.(Û¶¾ÿÿÿÿÿ
+<
+java:S1659Ï	" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659İ	" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+i
+java:S3776ò	"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(œ‡Ô±
+F
+java:S1874‹
+"/Remove this use of "execute"; it is deprecated.(¬å¦
+O
+java:S1874œ
+"3Remove this use of "getDrawable"; it is deprecated.(½Åú¨ıÿÿÿÿ
+G
+java:S1874
+"0Remove this use of "getColor"; it is deprecated.(Î­†å
+O
+java:S1874ª
+"3Remove this use of "getDrawable"; it is deprecated.(¼ÅÛ­ùÿÿÿÿ
+O
+java:S1874ª
+"3Remove this use of "getDrawable"; it is deprecated.(¼ÅÛ­ùÿÿÿÿ
+K
+java:S1874®
+"/Remove this use of "execute"; it is deprecated.(Â™åúÿÿÿÿ
+J
+java:S1874¯
+"3Remove this use of "getDrawable"; it is deprecated.(Ò‰¡
+K
+java:S1874´
+"/Remove this use of "execute"; it is deprecated.(ÌéŞæøÿÿÿÿ
+O
+java:S1874µ
+"3Remove this use of "getDrawable"; it is deprecated.(÷Î¸åøÿÿÿÿ
+<
+java:S1659î
+" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659û
+" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(†­÷†úÿÿÿÿ
+V
+java:S1854¡"?Remove this useless assignment to local variable "comentarios".(‚†à
+G
+java:S1481¡"0Remove this unused "comentarios" local variable.(‚†à
+W	java:S125«"<This block of commented-out lines of code should be removed.( ü—‹şÿÿÿÿ
+O
+java:S1874³"3Remove this use of "getDrawable"; it is deprecated.(½Åú¨ıÿÿÿÿ
+G
+java:S1874´"0Remove this use of "getColor"; it is deprecated.(Î­†å
+R	java:S125¾"<This block of commented-out lines of code should be removed.(€õıò
+O
+java:S1874Â"3Remove this use of "getDrawable"; it is deprecated.(¼ÅÛ­ùÿÿÿÿ
+O
+java:S1874Â"3Remove this use of "getDrawable"; it is deprecated.(¼ÅÛ­ùÿÿÿÿ
+K
+java:S1874Æ"/Remove this use of "execute"; it is deprecated.(Â™åúÿÿÿÿ
+J
+java:S1874Ç"3Remove this use of "getDrawable"; it is deprecated.(Ò‰¡
+K
+java:S1874Ì"/Remove this use of "execute"; it is deprecated.(ÌéŞæøÿÿÿÿ
+O
+java:S1874Í"3Remove this use of "getDrawable"; it is deprecated.(÷Î¸åøÿÿÿÿ
+<
+java:S1659Š" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+<
+java:S1659—" Declare "mV" on a separate line.(ùä³Æÿÿÿÿÿ
+f
+java:S1874ª"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(—”‡Éùÿÿÿÿ
+T
+java:S1874«"8Remove this use of "onActivityResult"; it is deprecated.(ß¬©úÿÿÿÿ
+=	java:S131¯""Add a default case to this switch.(Ÿªí§üÿÿÿÿ
+R	java:S125µ"<This block of commented-out lines of code should be removed.(í÷
+K
+java:S1874Ò"/Remove this use of "execute"; it is deprecated.(¶íÔğşÿÿÿÿ
+F
+java:S1874Ö"/Remove this use of "execute"; it is deprecated.(‚…‚€
+E
+java:S1874Ù"/Remove this use of "Handler"; it is deprecated.(Êà‹
+=	java:S131ı""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+=	java:S131""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+i	java:S116"SRename this field "img_news" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İëàü
+_
+java:S1192Î"HDefine a constant instead of duplicating this literal "#0B3575" 3 times.(ôŠ¦¸
+K
+java:S1066Á"/Merge this if statement with the enclosing one.(Ì¤¿’ùÿÿÿÿ
+F
+java:S1066­"/Merge this if statement with the enclosing one.(ß¸é
+l	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÌı„øÿÿÿÿ
+?
+java:S1604ß"(Make this anonymous inner class a lambda(‚Ã³
+g
+java:S1301ı"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+g
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

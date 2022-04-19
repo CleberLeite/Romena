@@ -1,0 +1,24 @@
+
+q
+java:S11497"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(™…Öœÿÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(­ô¼–
+S
+java:S1874$"8Remove this use of "OnLifecycleEvent"; it is deprecated.(Ôå²“ûÿÿÿÿ
+V	java:S125'"<This block of commented-out lines of code should be removed.(¬éøûùÿÿÿÿ
+N
+java:S1874,"8Remove this use of "OnLifecycleEvent"; it is deprecated.(øƒý”
+V	java:S125/"<This block of commented-out lines of code should be removed.(ö¨ÕÊùÿÿÿÿ
+N
+java:S18743"8Remove this use of "OnLifecycleEvent"; it is deprecated.(éê¯Þ
+K
+java:S2209?"5Change this instance-reference to a static reference.(¥¶Ìë
+Q	java:S125@"<This block of commented-out lines of code should be removed.(Í¤Ç
+t
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(™…Öœÿÿÿÿÿ
+l
+java:S1192&"WDefine a constant instead of duplicating this literal "AsyncOperationTAGFLUXO" 4 times.(Àá«S
+i
+java:S1104"SMake intance a static final constant or non-public and provide accessors if needed.(¢«ÏÕ
+C
+java:S1444"-Make this "public static intance" field final(¢«ÏÕ

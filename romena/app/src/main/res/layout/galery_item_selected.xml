@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="@dimen/margin_88"
+    android:layout_height="@dimen/size_64"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/margin_16"
+    android:layout_marginEnd="@dimen/margin_10"
+    android:padding="1dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/margin_88"
+        android:layout_height="@dimen/size_64"
+        android:scaleType="centerCrop"
+        android:contentDescription="Galery image"
+        app:layout_constraintDimensionRatio="1"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ThirdBackground"
+        android:layout_gravity="end"
+        android:alpha=".5"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/count_imgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="-"
+        android:fontFamily="@font/exo_2_bold"
+        android:textSize="@dimen/text_37"
+        android:textColor="@color/PrimaryText" />
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,81 @@
+
+p	java:S116)"VRename this field "OP_GET_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õù­ÿÿÿÿÿ
+n	java:S116*"YRename this field "OP_UPLOAD_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å“èÍ
+s	java:S116+"YRename this field "OP_UPLOAD_FOTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÕÄ›üÿÿÿÿ
+r	java:S116,"XRename this field "OP_POST_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üô´âşÿÿÿÿ
+n	java:S116-"YRename this field "OP_POST_CREATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ıÖá
+n	java:S116."TRename this field "OP_FORGOT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›åØ‘øÿÿÿÿ
+r	java:S116/"]Rename this field "OP_CHANGE_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÏËé
+s	java:S1160"^Rename this field "OP_GET_USER_PROFILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¥èÁ
+z	java:S1161"`Rename this field "OP_SET_DELETE_ACCOUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¢êºúÿÿÿÿ
+l	java:S1162"WRename this field "OP_GET_COINS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÅÔ¾
+q	java:S1163"WRename this field "OP_POST_AUTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”®¢®ıÿÿÿÿ
+<
+java:S1170)"!Make this final field static too.(õù­ÿÿÿÿÿ
+7
+java:S1170*"!Make this final field static too.(å“èÍ
+<
+java:S1170+"!Make this final field static too.(¢ÕÄ›üÿÿÿÿ
+<
+java:S1170,"!Make this final field static too.(Üô´âşÿÿÿÿ
+7
+java:S1170-"!Make this final field static too.(´ıÖá
+<
+java:S1170."!Make this final field static too.(›åØ‘øÿÿÿÿ
+7
+java:S1170/"!Make this final field static too.(®ÏËé
+7
+java:S11700"!Make this final field static too.(ö¥èÁ
+<
+java:S11701"!Make this final field static too.(…¢êºúÿÿÿÿ
+7
+java:S11702"!Make this final field static too.(±ÅÔ¾
+<
+java:S11703"!Make this final field static too.(”®¢®ıÿÿÿÿ
+l
+java:S1149k"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+l
+java:S1149v"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149ƒ"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Š"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149–"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Ã"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+Q	java:S125M"<This block of commented-out lines of code should be removed.(¤˜ïø
+J
+java:S1874o"/Remove this use of "execute"; it is deprecated.(ìÃµ»ûÿÿÿÿ
+c
+java:S5361z"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¤æ¨ôüÿÿÿÿ
+J
+java:S1874}"/Remove this use of "execute"; it is deprecated.(èÂ¥àúÿÿÿÿ
+F
+java:S1874…"/Remove this use of "execute"; it is deprecated.(ÃäÛÔ
+K
+java:S1874Œ"/Remove this use of "execute"; it is deprecated.(ÑÙ›ÿÿÿÿÿ
+K
+java:S1874‘"/Remove this use of "execute"; it is deprecated.(Ï”Û‚üÿÿÿÿ
+E
+java:S1874˜"/Remove this use of "execute"; it is deprecated.(¿£•c
+F
+java:S1874Æ"/Remove this use of "execute"; it is deprecated.(½çêÂ
+n
+java:S3776Ë"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(ù¼½›ùÿÿÿÿ
+=	java:S131Î""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+K
+java:S1874İ"/Remove this use of "Handler"; it is deprecated.(Çé¥Íûÿÿÿÿ
+R	java:S125æ"<This block of commented-out lines of code should be removed.(¾¨ßò
+‚
+java:S2178„"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(¡¼Ğşÿÿÿÿ
+i
+java:S3776Á"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(¼ùÙ
+=	java:S131Ã""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+R	java:S125Ä"<This block of commented-out lines of code should be removed.(¾¨ßò
+F
+java:S10682"0Remove this unused "OP_GET_COINS" private field.(±ÅÔ¾
+^
+java:S1192Ò"GDefine a constant instead of duplicating this literal "Object" 6 times.(¹É¢‡
+a
+java:S1192l"FDefine a constant instead of duplicating this literal "email" 3 times.(æıİ‚ûÿÿÿÿ

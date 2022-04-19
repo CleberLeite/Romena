@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="330dp"
+    android:layout_marginVertical="@dimen/margin_5"
+    android:layout_marginLeft="@dimen/margin_40"
+    android:layout_marginRight="@dimen/margin_40"
+    android:clipToPadding="true"
+    android:outlineAmbientShadowColor="#0B3575"
+    android:outlineSpotShadowColor="#0B3575"
+    app:cardCornerRadius="@dimen/margin_20">
+
+    <LinearLayout
+        android:id="@+id/view_back"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:textColor="@color/PrimaryBackground"
+            android:text="@string/desc_rcarea_fi_ierului"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_19"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/pb_download_arquivo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:indeterminate="false"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/background_progressbar_download"
+                android:background="@drawable/circle_shape"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/txt_progresso_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:text="0%"
+                android:textSize="20sp"
+                android:textColor="@color/PrimaryBackground"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40"
+            android:background="@android:color/transparent"
+            android:text="Anulare"
+            android:textSize="@dimen/text_15"
+            android:textColor="@color/PrimaryBackground"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

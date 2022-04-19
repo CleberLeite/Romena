@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.frf.app.fragments.ResaleFragment">
+
+
+    <LinearLayout
+        android:id="@+id/btn_dropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_20"
+        android:paddingBottom="@dimen/margin_10"
+        android:paddingStart="@dimen/margin_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/txt_dropdown"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:text="Cele mai populare"
+            android:textColor="@color/PrimaryBackground"
+            android:textSize="@dimen/text_13" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_8"
+            android:src="@drawable/ic_keyboard_arrow_down"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_loja"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/margin_76"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dropdown"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <!-- Dropdown -->
+    <com.gigamole.library.ShadowLayout
+        android:id="@+id/shadonwBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginStart="@dimen/margin_50"
+        app:layout_constraintEnd_toEndOf="@+id/btn_dropdown"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_dropdown"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sl_shadow_angle="90"
+        app:sl_shadow_color="#400B3575"
+        app:sl_shadow_distance="4dp"
+        app:sl_shadow_radius="10dp"
+        app:sl_shadowed="true"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="@+id/btn_dropdown"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_dropdown">
+
+            <LinearLayout
+                android:id="@+id/holder_dropdown"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+        </ScrollView>
+    </com.gigamole.library.ShadowLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

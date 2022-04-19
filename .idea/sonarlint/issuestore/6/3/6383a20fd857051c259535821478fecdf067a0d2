@@ -1,0 +1,30 @@
+
+>
+java:S1185."(Remove this method to simply inherit it.(ßìê¯
+Q	java:S125J"<This block of commented-out lines of code should be removed.(½‘Ñ³
+V	java:S125T"<This block of commented-out lines of code should be removed.(ÖðÔÀøÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(•˜ÃÛûÿÿÿÿ
+D
+java:S1185€"(Remove this method to simply inherit it.(ý¤Ðüùÿÿÿÿ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(û²­®ýÿÿÿÿ
+>
+java:S1185†"(Remove this method to simply inherit it.(û®«S
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(‚…Ñ©
+V
+java:S1161•":Add the "@Override" annotation above this method signature(ž³—úøÿÿÿÿ
+V
+java:S1161":Add the "@Override" annotation above this method signature(çÛ‹˜úÿÿÿÿ
+Y
+java:S1874¡"=Remove this use of "setSystemUiVisibility"; it is deprecated.(°×—…þÿÿÿÿ
+V
+java:S1161¨":Add the "@Override" annotation above this method signature(îµõøÿÿÿÿ
+T
+java:S1874±"=Remove this use of "getSystemUiVisibility"; it is deprecated.(ô¤Ù”
+T
+java:S1874µ"=Remove this use of "setSystemUiVisibility"; it is deprecated.(ÊËÅ×
+[
+java:S1874µ"DRemove this use of "SYSTEM_UI_FLAG_LAYOUT_STABLE"; it is deprecated.(ÊËÅ×
+W	java:S125º"<This block of commented-out lines of code should be removed.(ª¨¨ßùÿÿÿÿ
+Q	java:S125Â"<This block of commented-out lines of code should be removed.(úò¥s
+Q
+java:S1068""6Remove this unused "mfragmentViewModel" private field.(Ô¤ç•ùÿÿÿÿ

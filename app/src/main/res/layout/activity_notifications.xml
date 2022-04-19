@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/NotificationBackground"
+    android:fitsSystemWindows="true"
+    tools:context="com.frf.app.activitys.NotificationsActivity">
+
+    <ImageButton
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/text_40"
+        android:layout_height="@dimen/text_40"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_back_whitter"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_back"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:gravity="start"
+            android:text="@string/notific_ri_3"
+            android:textColor="@color/PrimaryText"
+            android:textSize="@dimen/text_19" />
+
+        <TextView
+            android:id="@+id/txtNotificary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/txt"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/margin_5"
+            android:textColor="@color/PrimaryText"
+            android:textSize="@dimen/text_19" />
+
+        <LinearLayout
+            android:id="@+id/ll_view_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:orientation="horizontal"
+            tools:ignore="RelativeOverlap,UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/img_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_5"
+                app:srcCompat="@drawable/ic_view_amber"
+                tools:ignore="ContentDescription"
+                app:tint="@color/PrimaryText" />
+
+            <TextView
+                android:id="@+id/txt_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/exo_2_bold"
+                android:text="@string/marcheaz_ca_citite"
+                android:textColor="@color/PrimaryText"
+                android:textSize="@dimen/text_12" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_toolbar"
+        android:layout_marginTop="@dimen/text_5"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notification_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_toolbar"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_95sdp"
+            android:src="@drawable/placeholder_notifications"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo2_medium"
+            android:text="@string/momentan_nu_sunt_notific_ri_de_afi_at"
+            android:textAlignment="center"
+            android:textColor="#6EA5F7"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

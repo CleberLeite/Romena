@@ -1,0 +1,45 @@
+
+t
+java:S1149°"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö8†ĞŒéƒ0
+t
+java:S1149á"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö8†ĞŒéƒ0
+o
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Í¬‚8•ĞŒéƒ0
+S
+java:S1874Š"0Remove this use of "getColor"; it is deprecated.(—ñüÿÿÿÿ8ĞŒéƒ0
+N
+java:S1874‹"0Remove this use of "getColor"; it is deprecated.(¢’Œ8ĞŒéƒ0
+p	java:S100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÕæóúÿÿÿÿ8¢ĞŒéƒ0
+k	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ïçŞ8£ĞŒéƒ0
+R
+java:S1874¯"/Remove this use of "execute"; it is deprecated.(ä¶Æ·ıÿÿÿÿ8¤ĞŒéƒ0
+F
+java:S1874¶"/Remove this use of "execute"; it is deprecated.(¸ÙÅ
+S
+java:S1874¸"0Remove this use of "getColor"; it is deprecated.(ñĞæğşÿÿÿÿ8¦ĞŒéƒ0
+M
+java:S1874¹"0Remove this use of "getColor"; it is deprecated.(É»­8§ĞŒéƒ0
+M
+java:S1874ã"/Remove this use of "execute"; it is deprecated.(Ñƒ¸ù8²ĞŒéƒ0
+L
+java:S1874ç"/Remove this use of "Handler"; it is deprecated.(Êà‹8³ĞŒéƒ0
+p
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ìÏœª8·ĞŒéƒ0
+D	java:S131Š""Add a default case to this switch.(á¤¥Æúÿÿÿÿ8¹ĞŒéƒ0
+O
+java:S1481",Remove this unused "success" local variable.(Ğ¾Šıÿÿÿÿ8ºĞŒéƒ0
+O
+java:S1481À",Remove this unused "success" local variable.(Ğ¾Šıÿÿÿÿ8ÄĞŒéƒ0
+D
+java:S1659Ş"&Declare "imgCheck" on a separate line.( °©õ8ÈĞŒéƒ0
+I
+java:S1659á"&Declare "txtCheck" on a separate line.(‰¾ÅÖûÿÿÿÿ8ÈĞŒéƒ0
+j
+java:S1192"GDefine a constant instead of duplicating this literal "Status" 4 times.(¼¥‚Àıÿÿÿÿ8ÌĞŒéƒ0
+M
+java:S1066™"/Merge this if statement with the enclosing one.(¹É¢‡8ÍĞŒéƒ0
+M
+java:S1066Ö"/Merge this if statement with the enclosing one.(Ò—™°8ÍĞŒéƒ0
+s	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÌı„øÿÿÿÿ8ÍĞŒéƒ0
+n
+java:S1301Š"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ8ÎĞŒéƒ0

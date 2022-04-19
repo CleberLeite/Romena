@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "742463784045",
+    "project_id": "frf-app-87d80",
+    "storage_bucket": "frf-app-87d80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742463784045:android:74c574be0939b76847ab64",
+        "android_client_info": {
+          "package_name": "com.frf.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742463784045-vra2l53cr7st3oicvof6162rugg7qv5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD6gWvLby7qfXdr4B5GZNVOUsWJulmpNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742463784045-vra2l53cr7st3oicvof6162rugg7qv5e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "742463784045-brlialpqnn11k45dvqufmg0snpcqbmcv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.frf.fanarena",
+                "app_store_id": "1610000427"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

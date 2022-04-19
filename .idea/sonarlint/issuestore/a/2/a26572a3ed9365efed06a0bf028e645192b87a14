@@ -1,0 +1,47 @@
+
+˜
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿žù‘
+l
+java:S1149G"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Ó"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+J
+java:S1874I"/Remove this use of "execute"; it is deprecated.(ýå›˜úÿÿÿÿ
+D
+java:S1874L"/Remove this use of "Handler"; it is deprecated.(Êà‹
+h
+java:S3776n"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ìÏœª
+<	java:S131o""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+d	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñæ•
+O
+java:S1874¬"3Remove this use of "getDrawable"; it is deprecated.(º­Ù™úÿÿÿÿ
+J
+java:S1874­"3Remove this use of "getDrawable"; it is deprecated.(ô“ì€
+J
+java:S1874®"3Remove this use of "getDrawable"; it is deprecated.(Å…Ÿ
+J
+java:S1874¯"3Remove this use of "getDrawable"; it is deprecated.(ƒÛ ñ
+J
+java:S1874°"3Remove this use of "getDrawable"; it is deprecated.( É¦ 
+J
+java:S1874±"3Remove this use of "getDrawable"; it is deprecated.(È•ü¸
+J
+java:S1874²"3Remove this use of "getDrawable"; it is deprecated.(†¶àÖ
+J
+java:S1874³"3Remove this use of "getDrawable"; it is deprecated.(¹å×”
+J
+java:S1874´"3Remove this use of "getDrawable"; it is deprecated.(â¾Ü¾
+K
+java:S1874¼"/Remove this use of "execute"; it is deprecated.(˜‹Šïûÿÿÿÿ
+K
+java:S1874¾"/Remove this use of "execute"; it is deprecated.(å‰†°úÿÿÿÿ
+K
+java:S1874Õ"/Remove this use of "execute"; it is deprecated.(£Ö‘Õùÿÿÿÿ
+b
+java:S1192r"GDefine a constant instead of duplicating this literal "Status" 4 times.(¼¥‚Àýÿÿÿÿ
+E
+java:S1066z"/Merge this if statement with the enclosing one.(¹É¢‡
+f
+java:S1301o"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+3
+java:S1643Ê"Use a StringBuilder instead.(¸òý

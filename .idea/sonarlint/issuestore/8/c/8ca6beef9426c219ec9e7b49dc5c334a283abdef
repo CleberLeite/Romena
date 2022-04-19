@@ -1,0 +1,9 @@
+
+h	java:S116"SRename this field "sso_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òãøœ
+o
+java:S4144¦"XUpdate this method so that its implementation is not identical to "getName" on line 114.(¢—”ù
+_
+java:S4275r"DRefactor this getter so that it actually refers to the field "name".(ú›Šøøÿÿÿÿ
+d	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û·Û
+j	java:S116æ"TRename this field "real_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÍáğ
+d	java:S100ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÆ­›

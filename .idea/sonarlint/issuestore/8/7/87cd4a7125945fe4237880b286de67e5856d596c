@@ -1,0 +1,103 @@
+
+m
+java:S1149Æ"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Í"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Ø"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149³"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149¹"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149Ò"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+o	java:S115`"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔºÜ
+t	java:S115a"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÃ¥’øÿÿÿÿ
+l
+java:S3252†"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(íòÌçüÿÿÿÿ
+l
+java:S3252†"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(íòÌçüÿÿÿÿ
+l
+java:S3252"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(íòÌçüÿÿÿÿ
+l
+java:S3252"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(íòÌçüÿÿÿÿ
+E
+java:S1874È"/Remove this use of "execute"; it is deprecated.(Ü³åU
+K
+java:S1874Ò"/Remove this use of "execute"; it is deprecated.(ˆí±Ñÿÿÿÿÿ
+E
+java:S1874ß"/Remove this use of "execute"; it is deprecated.(ÿäı5
+F
+java:S1874…"/Remove this use of "execute"; it is deprecated.(€ÿˆÜ
+f
+java:S3252—"OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(„‹¥
+G
+java:S1874—"0Remove this use of "getColor"; it is deprecated.(„‹¥
+k
+java:S3252˜"OUse static access with "android.content.DialogInterface" for "BUTTON_NEGATIVE".(¯¿¸ıÿÿÿÿ
+L
+java:S1874˜"0Remove this use of "getColor"; it is deprecated.(¯¿¸ıÿÿÿÿ
+l
+java:S3252¤"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(µÙ‚şÿÿÿÿÿ
+l
+java:S3252¤"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(µÙ‚şÿÿÿÿÿ
+c
+java:S3252®"LUse static access with "android.content.Context" for "INPUT_METHOD_SERVICE".(êÑ×ã
+F
+java:S1874µ"/Remove this use of "execute"; it is deprecated.(Ë ı‘
+d	java:S100¸"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«øå¨
+K
+java:S1874¼"/Remove this use of "execute"; it is deprecated.(ıËƒèúÿÿÿÿ
+L
+java:S1874ñ"0Remove this use of "fromHtml"; it is deprecated.(Œ¿¨ışÿÿÿÿ
+G
+java:S1874õ"0Remove this use of "getColor"; it is deprecated.(“«¬ñ
+_
+java:S5361ú"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÜâİÉ
+d
+java:S5361ı"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¢´—„ıÿÿÿÿ
+K
+java:S1874†"/Remove this use of "execute"; it is deprecated.(¸âÁÃıÿÿÿÿ
+F
+java:S1874ˆ"/Remove this use of "execute"; it is deprecated.(Ó€Ë 
+J
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(‡À¡ú
+J
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(‡À¡ú
+O
+java:S1874Ÿ"3Remove this use of "getDrawable"; it is deprecated.(½Åú¨ıÿÿÿÿ
+G
+java:S1874 "0Remove this use of "getColor"; it is deprecated.(Î­†å
+J
+java:S1874¦".Remove this use of "locale"; it is deprecated.(Àíª‰ıÿÿÿÿ
+R
+java:S1117¿";Rename "adapter" which hides the field declared at line 87.(Ñª¶Œ
+˜
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÖî
+K
+java:S1874Â"/Remove this use of "execute"; it is deprecated.(°õˆÏıÿÿÿÿ
+K
+java:S1874Õ"/Remove this use of "execute"; it is deprecated.(¨²Ğıÿÿÿÿ
+E
+java:S1874ã"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776û"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(ìÏœª
+=	java:S131ü""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+i
+java:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¿ù‘
+=	java:S131ÿ""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+l
+java:S3252®"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(µÙ‚şÿÿÿÿÿ
+l
+java:S3252®"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(µÙ‚şÿÿÿÿÿ
+c
+java:S1192ÿ"GDefine a constant instead of duplicating this literal "Status" 4 times.(¼¥‚Àıÿÿÿÿ
+j
+java:S1192´"NDefine a constant instead of duplicating this literal "commentsCount" 3 times.(‚–æÊüÿÿÿÿ
+^
+java:S1192‡"GDefine a constant instead of duplicating this literal "Object" 6 times.(¹É¢‡
+K
+java:S1066ì"/Merge this if statement with the enclosing one.(”ğÿ‘ıÿÿÿÿ
+g	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄÔÀ
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¹–Ãÿÿÿÿÿ
+g	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øø×ˆ

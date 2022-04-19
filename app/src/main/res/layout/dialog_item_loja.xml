@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C40B3575"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_5"
+        android:layout_marginHorizontal="@dimen/margin_20"
+        android:backgroundTint="@color/ColorWhitte"
+        app:cardCornerRadius="@dimen/margin_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/curver_toolbar"
+                app:menu="@menu/menu_dialog_close" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:backgroundTint="@android:color/transparent"
+                android:elevation="0dp"
+                app:cardCornerRadius="@dimen/margin_16"
+                app:cardElevation="0dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_20"
+                app:dotsColor="@color/ColorBlueGray400"
+                app:dotsCornerRadius="12dp"
+                app:dotsSize="8dp"
+                app:dotsSpacing="5dp"
+                app:dotsStrokeColor="@color/ColorBlueGray400"
+                app:dotsWidthFactor="2.5"
+                app:progressMode="false"
+                app:selectedDotColor="@color/PrimaryColorText" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textAlignment="textStart"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textAlignment="textStart"
+                android:textColor="@color/MutedText"
+                android:textSize="@dimen/text_15" />
+
+            <RelativeLayout
+                android:id="@+id/btn_buy_cart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:visibility="gone"
+                android:background="@drawable/back_rectangle_rounded_50"
+                android:backgroundTint="@color/PrimaryBackground"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imgIconCart"
+                        android:layout_width="@dimen/margin_22"
+                        android:layout_height="@dimen/margin_22"
+                        android:layout_marginEnd="@dimen/margin_10"
+                        android:src="@drawable/ic_cart_whitte" />
+
+                    <TextView
+                        android:id="@+id/txtButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:text="VEZI COȘ"
+                        android:textColor="@color/PrimaryText"
+                        android:textSize="@dimen/text_13" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_edit_enter"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_30"
+                android:background="@drawable/border_button_blue"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="@string/salvare"
+                android:textColor="@color/PrimaryBackground"
+                android:textSize="@dimen/text_13"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

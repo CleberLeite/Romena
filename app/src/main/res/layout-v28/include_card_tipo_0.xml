@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/BackgroundTintText"
+    android:divider="@android:color/transparent"
+    app:cardElevation="5dp"
+    android:outlineAmbientShadowColor="#0B3575"
+    android:outlineSpotShadowColor="#0B3575"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:layout_marginRight="@dimen/margin_20"
+    android:layout_marginBottom="@dimen/margin_20"
+    app:cardPreventCornerOverlap="false"
+    app:cardCornerRadius="@dimen/margin_16">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20">
+
+        <ImageView
+            android:id="@+id/img_card1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:maxWidth="60dp"
+            android:maxHeight="170dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:fontFamily="@font/exo2_extra_bold"
+            android:text="@string/tiri"
+            android:textColor="@color/PrimaryText"
+            android:textSize="@dimen/text_12"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_card1"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time_tipo_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo2_medium"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/MutedText"
+                android:textSize="@dimen/text_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/titulo_tipo_0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/exo2_semi_bold"
+                    android:gravity="start"
+                    android:textColor="@color/ThirdBackground"
+                    android:textSize="@dimen/text_15"
+                    android:textFontWeight="600"
+                    android:layout_weight="1"
+                    tools:ignore="SpUsage" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/desc_tipo_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_10"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_14" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

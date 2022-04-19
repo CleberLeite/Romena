@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.frf.app.activitys.AboutActivity">
+
+    <ImageView
+        android:id="@+id/img_about_back"
+        android:layout_width="@dimen/margin_30"
+        android:layout_height="@dimen/margin_30"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:src="@drawable/ic_back_black"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_about_back"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_32"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:text="@string/despre_aplica_ie"
+            android:textColor="@color/NewsTitleText"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:textSize="@dimen/text_19" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:fontFamily="@font/exo2_regular"
+            android:textColor="@color/ColorPolitcs"
+            android:textSize="@dimen/text_13"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:fontFamily="@font/exo2_regular"
+            android:text="@string/ntoate_drepturile_rezervate_frf"
+            android:textColor="@color/ColorPolitcs"
+            android:textSize="@dimen/text_13"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:text="@string/condi_ii_de_utilizare"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:textColor="@color/PrimaryColorText"
+            android:textSize="@dimen/text_15"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

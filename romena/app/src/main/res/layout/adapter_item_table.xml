@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.frf.app.views.RoundedShadowedLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_15"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:paddingTop="@dimen/margin_5"
+    android:paddingEnd="@dimen/margin_5"
+    android:paddingStart="@dimen/margin_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/margin_20"
+        android:layout_marginVertical="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10"
+        android:baselineAligned="false"
+        android:gravity="center">
+
+        <TableLayout
+            android:id="@+id/containerHomeItens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            tools:ignore="UselessParent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:id="@+id/column_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/margin_10"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:fontFamily="@font/exo_2_bold"
+                    android:textColor="@color/PrimaryColorText"
+                    android:textSize="@dimen/text_13"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/column_matches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/ColorBlue"
+                    android:textSize="@dimen/text_13" />
+
+                <TextView
+                    android:id="@+id/column_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/ColorBlue"
+                    android:textSize="@dimen/text_13" />
+
+                <TextView
+                    android:id="@+id/column_wins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/ColorBlue"
+                    android:textSize="@dimen/text_13" />
+
+                <TextView
+                    android:id="@+id/column_defeats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/ColorBlue"
+                    android:textSize="@dimen/text_13" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/column_draws"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/ColorBlue"
+                        android:textSize="@dimen/text_13" />
+                </RelativeLayout>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</com.frf.app.views.RoundedShadowedLayout>

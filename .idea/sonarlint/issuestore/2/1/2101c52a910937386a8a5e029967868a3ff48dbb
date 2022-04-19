@@ -1,0 +1,21 @@
+
+œ
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(èÂ‚Ùûÿÿÿÿ
+—
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìÏœª
+—
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿žù‘
+|
+java:S1450"aRemove the "mfragmentViewModel" field and declare it as a local variable in the relevant methods.(Ô¤ç•ùÿÿÿÿ
+>
+java:S1185%"(Remove this method to simply inherit it.(ßìê¯
+C
+java:S1185G"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ
+E
+java:S1874Q"/Remove this use of "execute"; it is deprecated.(ïÑèˆ
+E
+java:S1874V"/Remove this use of "execute"; it is deprecated.(Ã¥°æ
+E
+java:S1874["/Remove this use of "execute"; it is deprecated.(Åûà“
+E
+java:S1874b"/Remove this use of "execute"; it is deprecated.(µî‹Ä

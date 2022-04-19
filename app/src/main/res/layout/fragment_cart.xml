@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.frf.app.fragments.CartFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:paddingVertical="@dimen/margin_5"
+        android:text="Coșul Tău"
+        android:textColor="@color/ColorEventsTitle"
+        android:textSize="@dimen/text_29"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_videos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_shape"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/round_shape"
+                app:layout_constraintTop_toBottomOf="@+id/btn_dropdown">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/margin_20"
+                    android:background="@drawable/round_shape"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardLoja"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="2dp"
+                        android:elevation="0dp"
+                        app:cardCornerRadius="@dimen/margin_16"
+                        app:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="end"
+                            android:gravity="end"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/rl_prices"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="@dimen/margin_10"
+                                android:layout_marginTop="@dimen/margin_5"
+                                android:layout_marginStart="@dimen/margin_10"
+                                android:layout_marginBottom="@dimen/margin_10"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="@dimen/margin_5">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="Tricou Joc Galben România"
+                                        android:textColor="@color/ColorBlueGray800"
+                                        android:textSize="@dimen/text_13" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/exo2_medium"
+                                        android:text="M | Galben | 1"
+                                        android:textColor="@color/ColorBlueGray500"
+                                        android:textSize="@dimen/text_13" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/margin_15"
+                                    android:layout_marginTop="@dimen/margin_10">
+
+                                    <TextView
+                                        android:id="@+id/txtPriceNews"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="199,00 RON"
+                                        android:textColor="@color/ColorRed600"
+                                        android:textSize="@dimen/text_17" />
+
+                                    <TextView
+                                        android:id="@+id/txtPricePrevious"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/margin_10"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="250,00 RON"
+                                        android:textColor="@color/ColorBlueGray400"
+                                        android:textSize="@dimen/text_15" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_height="wrap_content">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="24dp"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="ȘTERGE"
+                                        android:layout_marginHorizontal="@dimen/margin_10"
+                                        android:textColor="@color/PrimaryText"
+                                        android:background="@drawable/back_rectangle_rounded_50"
+                                        android:backgroundTint="@color/PrimaryBackground"
+                                        android:textSize="@dimen/text_12"
+                                        android:textAllCaps="false"
+                                        />
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="24dp"
+                                        android:background="@drawable/border_button_blue"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="ȘTERGE"
+                                        android:textColor="@color/PrimaryBackground"
+                                        android:textSize="@dimen/text_12"
+                                        android:textAllCaps="false"
+                                        />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="@dimen/margin_100"
+                                android:layout_height="@dimen/margin_100"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginVertical="@dimen/margin_5"
+                                android:layout_marginTop="@dimen/margin_20"/>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:layout_marginBottom="@dimen/margin_100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnBaixo"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_20"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginVertical="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo_2_bold"
+                            android:text="Total"
+                            android:textColor="@color/ColorBlueGray700"
+                            android:textSize="@dimen/text_17" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardCupom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/margin_20"
+                            android:visibility="invisible"
+                            android:backgroundTint="@color/ColorGreen500"
+                            app:cardCornerRadius="@dimen/margin_50"
+                            android:layout_marginStart="@dimen/margin_10">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="@dimen/margin_5"
+                                android:layout_gravity="center"
+                                android:text="-10%"
+                                android:textColor="@color/PrimaryText"
+                                android:fontFamily="@font/exo_2_bold"
+                                android:textSize="@dimen/text_12" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_20"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginVertical="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imgCupom"
+                            android:layout_width="@dimen/margin_16"
+                            android:layout_height="@dimen/margin_16"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="@dimen/margin_5"
+                            android:src="@drawable/ic_sucess"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/exo2_extra_bold"
+                            android:gravity="center"
+                            android:text="Cod promo?"
+                            android:textColor="@color/PrimaryBackground"
+                            android:textSize="@dimen/text_15"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_20">
+
+                    <TextView
+                        android:id="@+id/txtPriceTotal"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:text="199,00 RON"
+                        android:textColor="@color/ColorBlueGray700"
+                        android:textSize="@dimen/text_19" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edtCupom"
+                            android:layout_width="@dimen/margin_88"
+                            android:layout_height="@dimen/margin_28"
+                            android:background="@drawable/border_card_blue"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:padding="@dimen/margin_5"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_20" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_edit_enter"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_56"
+                android:background="@drawable/back_rectangle_rounded_50"
+                android:backgroundTint="@color/PrimaryBackground"
+                android:padding="15dp"
+                android:text="FINALIZEAZĂ COMANDA"
+                android:textAllCaps="false"
+                android:textColor="@color/PrimaryText"
+                android:textSize="@dimen/text_16" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

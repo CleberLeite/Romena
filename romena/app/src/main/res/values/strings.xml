@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Fan Arena</string>
+    <!-- Dados do login do facebook  -->
+    <string name="facebook_app_id">739851710298845</string>
+    <string name="fb_login_protocol_scheme">fb739851710298845</string>
+
+    <string name="lorem_ipsum">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat semper viverra nam libero justo laoreet sit. Imperdiet sed euismod nisi porta. Cursus in hac habitasse platea dictumst quisque sagittis purus. Imperdiet massa tincidunt nunc pulvinar sapien. Tortor vitae purus faucibus ornare suspendisse sed nisi.\n" +
+        "\n" +
+        "Dignissim cras tincidunt lobortis feugiat vivamus at augue. Diam maecenas sed enim ut sem. Sit amet risus nullam eget felis eget nunc. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Elit sed vulputate mi sit amet mauris commodo quis. Tristique senectus et netus et malesuada fames ac turpis egestas.\n" +
+        "\n" +
+        "Sagittis vitae et leo duis ut diam quam nulla. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Placerat in egestas erat imperdiet sed euismod. Feugiat nisl pretium fusce id velit ut tortor pretium. Libero enim sed faucibus turpis in.\n" +
+        "\n" +
+        "Arcu felis bibendum ut tristique et egestas quis ipsum. At lectus urna duis convallis convallis tellus. Eu scelerisque felis imperdiet proin fermentum leo. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Molestie ac feugiat sed lectus. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque.\n" +
+        "\n" +
+        "Etiam sit amet nisl purus in mollis nunc sed. Id donec ultrices tincidunt arcu non sodales. Ut tristique et egestas quis ipsum suspendisse ultrices. Lorem sed risus ultricies tristique. Volutpat est velit egestas dui id ornare arcu. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum."</string>
+    <string name="create_account">Creează Cont</string>
+    <string name="new_user">Utilizator nou?</string>
+    <string name="login_social">Sau continuă cu</string>
+    <string name="back">Înapoi</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="zz_ll_aaaa">zz/ll/aaaa</string>
+    <string name="date_of_birth">Data nașterii</string>
+    <string name="forgotten_password">Ai uitat parola?</string>
+    <string name="despre_aplica_ie">Despre Aplicație</string>
+    <string name="versiunea">Versiunea </string>
+    <string name="versiunea_maintenance">Versiunea: </string>
+    <string name="ntoate_drepturile_rezervate_frf">Toate drepturile rezervate FRF.</string>
+    <string name="condi_ii_de_utilizare"><u>Condiții de Utilizare</u></string>
+    <string name="set_ri_cont">Setări Cont</string>
+    <string name="schimb_parola">Schimbă Parola</string>
+    <string name="terge_contul">Șterge Contul</string>
+    <string name="confiden_ialitate">Confidențialitate</string>
+    <string name="termeni_amp_condi_ii"><![CDATA[Termeni & Condiții]]></string>
+    <string name="schimb_e_mail">Schimbă E-mail</string>
+    <string name="termeni_conditi">Termeni și condiții</string>
+    <string name="confidencilidate">Politica de Confidențialitate</string>
+    <string name="tiri">ȘTIRI</string>
+    <string name="bilete">BILETE</string>
+    <string name="error_invalid_email_or_password">error</string>
+    <string name="membru_din_decembrie_2020">Membru din Decembrie 2020</string>
+    <string name="_257">#257</string>
+    <string name="post_rile_tale">Postările tale</string>
+    <string name="ok">OK</string>
+    <string name="editeaz_profilul">Editează Profilul</string>
+    <string name="ora">Oraș</string>
+    <string name="_25">+25</string>
+    <string name="data_na_terii">Data Nașterii</string>
+    <string name="gen">Gen</string>
+    <string name="salvez">Salvează</string>
+    <string name="doriți_sa_primiți_notificări">Doriți să primiți notificări</string>
+    <string name="competi_ii">Competiții</string>
+    <string name="anterioare">Anterioare</string>
+    <string name="nume">Nume</string>
+    <string name="parola">Parola</string>
+    <string name="liviu_popescu">Liviu Popescu</string>
+    <string name="comentator">Comentator</string>
+    <string name="profil">Profil</string>
+    <string name="deconectare">Deconectare</string>
+    <string name="comenzi">Comenzi</string>
+    <string name="meciuri_amp_rezultate"><![CDATA[Meciuri & Rezultate]]></string>
+    <string name="quizuri">Quizuri</string>
+    <string name="clasament">Clasament</string>
+    <string name="_bilete">Bilete</string>
+    <string name="puncte_amp_premii"><![CDATA[Puncte & Premii]]></string>
+    <string name="voce_deseja_fechar_o_app">Doriți să închideți aplicația?</string>
+    <string name="delete_account">Doriți să vă ștergeți contul?</string>
+    <string name="sim">Da</string>
+    <string name="nao">Nu</string>
+
+    <string-array name="genuri">
+        <item>-</item>
+        <item>Femeie</item>
+        <item>Masculin</item>
+        <item>Alte</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notific_ri_3">Notificări</string>
+    <string name="marcheaz_ca_citite">Marchează ca citite</string>
+    <string name="video">Video</string>
+    <string name="activeaz_notific_rile">Activează Notificările</string>
+    <string name="introdu_adresa_de_e_mail_a_contului_i_i_vom_trimite_un_link_de_resetare_a_parolei">Introdu adresa de E-mail a contului și îți vom trimite un link de resetare a parolei.</string>
+    <string name="e_mail">E-mail</string>
+    <string name="vs">VS</string>
+    <string name="national_arena">National Arena</string>
+    <string name="cump_r_bilete">CUMPĂRĂ BILETE</string>
+    <string name="puncte_premii"><![CDATA[Puncte & Premii]]></string>
+    <string name="selecteaz_m_rimea">Selectează Mărimea</string>
+    <string name="aplic_filtre">APLICĂ FILTRE</string>
+    <string name="filtre">Filtre</string>
+    <string name="sem_conexao">Nici o conexiune</string>
+    <string name="id_channel">Fan Arena</string>
+    <string name="push_description" />
+    <string name="creeaza_cont">Creează Cont</string>
+    <string name="trimit_link">Trimite Link</string>
+    <string name="email_invalido">Introduceți aici o adresă de e-mail validă</string>
+    <string name="email_vazio">nu poate fi nulă.</string>
+    <string name="senha_invalida">Parola trebuie să conțină cel puțin 4 caractere</string>
+    <string name="data_invalida">Data nevalidă</string>
+    <string name="there_is_nothing_here_at_the_moment">Nu există nimic aici în acest moment</string>
+    <string name="an_error_has_occurred">a avut loc o eroare</string>
+
+    <string name="PERMISSION_GRANTED">Citiți permisiunea de stocare externă acordată</string>
+    <string name="PERMISSION_DENIED">Citește permisiunea de stocare externă refuzată</string>
+    <string name="foto">Fă o fotografie</string>
+    <string name="galery">Alege din galerie</string>
+    <string name="_video">VIDEO</string>
+    <string name="erro_ao_carregar">Eroare la încărcarea fotografiei, încercați alta!</string>
+    <string name="se_ncarc">Se încarcã</string>
+    <string name="msg_erro_empty">Câmpurile nu trebuie să fie goale!</string>
+    <string name="msg_erro_post_insert">Scuze, a aparut o eroare!</string>
+    <string name="succes_post">Publicația a fost trimisă cu succes!</string>
+    <string name="nao_foi_possivel_carregar_a_lista">Nu s-a putut încărca lista</string>
+    <string name="send_to">Send to</string>
+    <string name="comentarii">Comentarii</string>
+    <string name="comentariu_nou">Comentariu nou</string>
+    <string name="home">Home</string>
+    <string name="arena">Arena</string>
+    <string name="stiri">Știri</string>
+    <string name="magazin">Magazin</string>
+    <string name="vezi_toate_comentariile">Vezi toate comentariile</string>
+    <string name="porecl">Poreclă</string>
+    <string name="nickname">Nickname</string>
+    <string name="acest_nume_va_fi_afi_at">Acest nume va fi afișat</string>
+    <string name="introducei_un_porecla_aici">Introduceți un porecla aici</string>
+    <string name="data_nevalid">Data nevalidă</string>
+    <string name="nu_a_putut_actualiza_datele">Nu a putut actualiza datele</string>
+    <string name="modific_datele_contului">MODIFICĂ DATELE CONTULUI</string>
+    <string name="modificai_campul_anterior">modificați câmpul anterior</string>
+    <string name="distribuie">DISTRIBUIE</string>
+    <string name="liga_na_iunilor">Liga Națiunilor</string>
+    <string name="urmeaz">Urmează</string>
+    <string name="urm_re_te_comanda">URMĂREȘTE COMANDA</string>
+    <string name="status">Status: </string>
+    <string name="introduceti_o_noua_parola_aici">Introduceți o nouă parolă aici</string>
+    <string name="confirma_noua_parola">Confirmă noua parolă</string>
+    <string name="va_rugam_sa_introduceti_o_adresa_de_email_valida">Vă rugăm să introduceți o adresă de email validă</string>
+    <string name="contact">Contact</string>
+    <string name="ncearc_din_nou">încearcă din nou</string>
+    <string name="revizie_ntehnic">Revizie \nTehnică</string>
+    <string name="msg_maintenance_default">Stafful nostru se ocupă de situație, iar aplicația va reveni în cel mai scurt timp.</string>
+    <string name="nu_acum">nu acum</string>
+    <string name="descarcati_versiunea_noua">descărcați versiunea nouă</string>
+    <string name="a_confirma">A confirma</string>
+    <string name="anulare">Anulare</string>
+    <string name="delete_photo">Șterge fotografia</string>
+    <string name="sigur_doriti_sa_iesiti">Sigur doriți să ieșiți?</string>
+    <string name="sunteti_sigur_ca_doriti_sa_stergeti_acest_comentariu">sunteți sigur că doriți să ștergeți acest comentariu?</string>
+    <string name="default_notification_channel_id">Fan Arena</string>
+    <string name="sponsorizat">Sponsorizat</string>
+    <string name="rezolvate_anterior">Rezolvate anterior</string>
+    <string name="nout_i">Noutăți</string>
+    <string name="revendic_pentru">REVENDICĂ PENTRU</string>
+    <string name="cantitate">Cantitate</string>
+    <string name="culoare">Culoare</string>
+    <string name="se_pare_ca_acest_post_nu_mai_exista">Se pare că această postare nu mai există.</string>
+    <string name="nu_sa_putut_incarca_aceasta_postare">Nu s-a putut încărca această postare</string>
+    <string name="se_pare_ca_acest_articol_nu_mai_exista">Se pare că acest articol nu mai există.</string>
+    <string name="nu_sa_putut_afisa_elementul">Nu s-a putut afișa elementul</string>
+    <string name="nu_se_pot_incarca_detaliile_meciului">Nu se pot încărca detaliile meciului</string>
+    <string name="se_pare_ca_aceasta_veste_nu_mai_exista">Se pare că această veste nu mai există</string>
+    <string name="nu_se_pot_incarca_stirile">Nu se pot încărca știrile</string>
+    <string name="desc_rcare_fi_ier">Descărcare fișier</string>
+    <string name="expira_in">Expira in: #$</string>
+    <string name="cuponul_dvs_este">Cuponul dvs. este:</string>
+    <string name="postare_nou">POSTARE NOUĂ</string>
+    <string name="cuponul_a_fost_copiat">Cuponul a fost copiat</string>
+    <string name="desc_rcarea_fi_ierului">descărcarea fișierului</string>
+    <string name="descarcarea_a_fost_anulata">Descărcarea a fost anulată</string>
+    <string name="descarcare_terminata">Descărcare terminată</string>
+    <string name="a_aparut_o_eroare_la_descarcarea_fisierului">A apărut o eroare la descărcarea fișierului.</string>
+    <string name="salvare">Salvare</string>
+    <string name="inchide">Închide</string>
+    <string name="nu_a_fost_posibila_salvarea">Nu a fost posibilă salvarea</string>
+    <string name="eroare_la_deschiderea_camerei">Eroare la deschiderea camerei</string>
+    <string name="eroare_la_incarcarea_fotografiei_incercati_altul">Eroare la încărcarea fotografiei, încercați altul!</string>
+    <string name="eroare_la_cautarea_utilizatorului">Eroare la căutarea utilizatorului</string>
+    <string name="salvarea_mea">Salvarea mea</string>
+    <string name="logare">Logare…</string>
+    <string name="imaginea_nu_a_putut_fi_eliminata">Imaginea nu a putut fi eliminată</string>
+    <string name="revendica">Revendică</string>
+    <string name="modifica_datele_contului_frf_id">Modifică datele contului FRF ID</string>
+    <string name="confirm_e_mail_nou">Confirmă E-mail nou</string>
+    <string name="parola_actual">Parola Actuală</string>
+    <string name="versiune">Versiune</string>
+    <string name="sesiune_expirata">Sesiune expirată</string>
+    <string name="imparte_cu">împarte cu</string>
+    <string name="nu_au_fost_gasite_articolele">Nu au fost gasite articolele</string>
+    <string name="finalizeaz_comanda">FINALIZEAZĂ COMANDA</string>
+    <string name="momentan_nu_sunt_notific_ri_de_afi_at">Momentan, nu sunt notificări\nde afișat.</string>
+    <string name="nu_ai_creat_nicio_postare_p_n_nacum">Nu ai creat nicio postare până\nacum.</string>
+    <string name="partener">Partener</string>
+    <string name="caut_articole">Caută articole…</string>
+    <string name="filtreaz">Filtrează</string>
+    <string name="recomand_ri">Recomandări</string>
+    <string name="no_items_found">Nu au fost gasite articolele</string>
+    <string name="error_load_img">Nu s-a putut încărca imaginea</string>
+    <string name="receive_your_badges">primiți-vă insignele</string>
+    <string name="next">Următorul</string>
+    <string name="exit">A iesi afara</string>
+    <string name="link_faq">https://api.app-admin.frf.ro/terms/faq</string>
+    <string name="email_support">fanarena@frf.ro</string>
+    <string name="regulament">Regulament</string>
+    <string name="link_terms_quiz">https://api.app-admin.frf.ro/terms/quiz</string>
+    <string name="raporteaz_o_problem">Raportează o Problemă</string>
+    <string name="send_email">Trimite mail…</string>
+
+    <string-array name="months">
+        <item>ianuarie</item>
+        <item>februarie</item>
+        <item>Martie</item>
+        <item>Aprilie</item>
+        <item>Mai</item>
+        <item>iunie</item>
+        <item>iulie</item>
+        <item>August</item>
+        <item>Septembrie</item>
+        <item>octombrie</item>
+        <item>noiembrie</item>
+        <item>decembrie</item>
+    </string-array>
+
+</resources>

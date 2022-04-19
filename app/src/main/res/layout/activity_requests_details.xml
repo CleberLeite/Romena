@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.frf.app.activitys.RequestsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/img_about_back"
+        android:layout_width="@dimen/margin_30"
+        android:layout_height="@dimen/margin_30"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:src="@drawable/ic_back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/round_shape"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_30"
+                android:layout_marginEnd="@dimen/margin_20"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="Comanda #98762"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_19" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/round_shape">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_shape"
+                    android:layout_marginLeft="@dimen/margin_20"
+                    android:layout_marginRight="@dimen/margin_20"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_10" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_shape_55"
+                        android:backgroundTint="#E0E6EF"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/comanda_procesare"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_20"
+                            app:cardElevation="0dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="@color/BackgroundTintText"
+                            app:cardCornerRadius="@dimen/margin_20">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_20"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_20"
+                                    android:layout_marginTop="@dimen/margin_10"
+                                    android:layout_marginRight="@dimen/margin_20"
+                                    android:layout_marginBottom="@dimen/margin_20"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="start"
+                                        android:fontFamily="@font/exo_2_bold"
+                                        android:gravity="start"
+                                        android:text="Jachetă Antrenament \nAlbastru România"
+                                        android:textColor="@color/NewsTitleText"
+                                        android:textSize="@dimen/text_15" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/margin_15"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="M | Albastru | Buc. 1"
+                                        android:textColor="@color/MutedText"
+                                        android:textSize="@dimen/text_13" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/margin_10"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="150,00 RON"
+                                        android:textColor="@color/PrimaryColorText"
+                                        android:textSize="@dimen/text_15" />
+
+                                </LinearLayout>
+
+
+                                <ImageView
+                                    android:layout_width="@dimen/margin_92"
+                                    android:layout_height="@dimen/margin_92"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginEnd="@dimen/margin_20"/>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_20"
+                            app:cardElevation="0dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="@color/BackgroundTintText"
+                            app:cardCornerRadius="@dimen/margin_20">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_20"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_20"
+                                    android:layout_marginTop="@dimen/margin_10"
+                                    android:layout_marginRight="@dimen/margin_20"
+                                    android:layout_marginBottom="@dimen/margin_20"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="start"
+                                        android:fontFamily="@font/exo_2_bold"
+                                        android:gravity="start"
+                                        android:text="Pantaloni Antrenament \nRomânia"
+                                        android:textColor="@color/NewsTitleText"
+                                        android:textSize="@dimen/text_15"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/margin_15"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="M | Albastru | Buc. 1"
+                                        android:textColor="@color/MutedText"
+                                        android:textSize="@dimen/text_15" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/margin_10"
+                                        android:fontFamily="@font/exo2_semi_bold"
+                                        android:text="100,00 RON"
+                                        android:textColor="@color/PrimaryColorText"
+                                        android:textSize="@dimen/text_15" />
+
+                                </LinearLayout>
+
+
+                                <ImageView
+                                    android:layout_width="@dimen/margin_92"
+                                    android:layout_height="@dimen/margin_92"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginEnd="@dimen/margin_20"/>
+
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="Livrare"
+                            android:textColor="@color/MutedText"
+                            android:textSize="@dimen/text_15" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:fontFamily="@font/exo2_medium"
+                            android:text="+20,00 RON"
+                            android:textColor="@color/MutedText"
+                            android:textSize="@dimen/text_15" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="Total"
+                            android:textColor="@color/ColorPolitcs"
+                            android:textSize="@dimen/text_17" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:fontFamily="@font/exo2_medium"
+                            android:text="250,00 RON"
+                            android:textColor="@color/ColorPolitcs"
+                            android:textSize="@dimen/text_17" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_15"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_15"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:gravity="start"
+                            android:text="Adresa de Livrare"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_15" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:fontFamily="@font/exo2_medium"
+                            android:text="Andrei Mihai\nCalea Victoriei 1, sc. B, ap. 10\nBucurești\n+40 722 399 440"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:gravity="start"
+                            android:text="Metoda de Livrare"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_15"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="FAN Curier"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_20"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:gravity="start"
+                            android:text="Metoda de Plată"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_15"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="Card Online"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_56"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:background="@drawable/back_rectangle_rounded_50"
+                        android:backgroundTint="@color/PrimaryBackground"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:padding="15dp"
+                        android:text="DESCARCĂ FACTURA"
+                        android:textAllCaps="false"
+                        android:textColor="@color/PrimaryText"
+                        android:textSize="@dimen/text_13" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_56"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:background="@drawable/back_rectangle_rounded_50"
+                        android:backgroundTint="@color/ColorRed"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:padding="15dp"
+                        android:text="ANULEAZĂ COMANDA"
+                        android:textAllCaps="false"
+                        android:textColor="@color/PrimaryText"
+                        android:textSize="@dimen/text_13" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_100" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <include layout="@layout/include_bottom_navigation_view" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+
+I
+java:S1874:"3Remove this use of "NetworkInfo"; it is deprecated.(ùçæ¨
+Y
+java:S1874:"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ùçæ¨8ÒπíÏÉ0
+\
+java:S1874;"?Remove this use of "isConnectedOrConnecting"; it is deprecated.(·¬æı8ÚπíÏÉ0
+J
+java:S1185U"(Remove this method to simply inherit it.(˝§–¸˘ˇˇˇˇ8¯πíÏÉ0
+D
+java:S1185Z"(Remove this method to simply inherit it.(˚Æ´S8˘πíÏÉ0
+\
+java:S1161h":Add the "@Override" annotation above this method signature(û≥ó˙¯ˇˇˇˇ8˚πíÏÉ0
+\
+java:S1161p":Add the "@Override" annotation above this method signature(Á€ãò˙ˇˇˇˇ8¸πíÏÉ0
+_
+java:S1874t"=Remove this use of "setSystemUiVisibility"; it is deprecated.(∂‘±Í˛ˇˇˇˇ8˛πíÏÉ0
+\
+java:S1161|":Add the "@Override" annotation above this method signature(çÓµı¯ˇˇˇˇ8ˇπíÏÉ0
+[
+java:S1874Ö"=Remove this use of "getSystemUiVisibility"; it is deprecated.(°¶ß„8Ä∫íÏÉ0
+b
+java:S1874ã"FRemove this use of "SYSTEM_UI_FLAG_HIDE_NAVIGATION"; it is deprecated.(ËÔàâ˚ˇˇˇˇ
+]
+java:S1874å"ARemove this use of "SYSTEM_UI_FLAG_FULLSCREEN"; it is deprecated.(µ“öÿ˙ˇˇˇˇ
+`
+java:S1874ç"=Remove this use of "setSystemUiVisibility"; it is deprecated.(¸Ü›©¯ˇˇˇˇ8É∫íÏÉ0

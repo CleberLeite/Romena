@@ -1,0 +1,52 @@
+
+i	java:S1168"TRename this field "file_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨°Õ¢
+l
+java:S1149w"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+J
+java:S1874|"/Remove this use of "execute"; it is deprecated.(ğî¤Ìûÿÿÿÿ
+F
+java:S1874€"/Remove this use of "execute"; it is deprecated.(åÜî¬
+K
+java:S1874ƒ"/Remove this use of "execute"; it is deprecated.(Ø†´úÿÿÿÿÿ
+Q
+java:S1117‡":Rename "dialog" which hides the field declared at line 74.(úŸ½¥
+E
+java:S1874­"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776Å"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(ìÏœª
+=	java:S131Ç""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+T
+java:S1117Ù"8Rename "data" which hides the field declared at line 72.(®ÕéÂÿÿÿÿÿ
+V
+java:S1117Â":Rename "dialog" which hides the field declared at line 74.(áãúÿÿÿÿ
+K
+java:S1874€"/Remove this use of "execute"; it is deprecated.(³£úÉùÿÿÿÿ
+`
+java:S1874"IRemove this use of "getExternalStoragePublicDirectory"; it is deprecated.(£„øô
+F
+java:S1874Ÿ"/Remove this use of "execute"; it is deprecated.(¹–šÃ
+H
+java:S1602ª",Remove useless curly braces around statement(²ÔÑ·şÿÿÿÿ
+K
+java:S1874Ã"/Remove this use of "Handler"; it is deprecated.(’àŞ–úÿÿÿÿ
+=
+java:S1075Ô"&Remove this hard-coded path-delimiter.(ì­·ä
+`
+java:S1874Ô"IRemove this use of "getExternalStoragePublicDirectory"; it is deprecated.(ì­·ä
+K
+java:S1874ã"/Remove this use of "Handler"; it is deprecated.(¬£Øûÿÿÿÿ
+D
+java:S1874î"-Remove this use of "toURL"; it is deprecated.(ñº«
+t	java:S116š"YRename this field "dots_indicator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á”×ıÿÿÿÿ
+c
+java:S1192Ì"GDefine a constant instead of duplicating this literal "Status" 4 times.(¼¥‚Àıÿÿÿÿ
+c
+java:S1192["HDefine a constant instead of duplicating this literal "idCupom" 4 times.(·çÑ£ùÿÿÿÿ
+^
+java:S1192Õ"GDefine a constant instead of duplicating this literal "Object" 6 times.(¹É¢‡
+g
+java:S1301Ç"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+^
+java:S2259Ú"BA "NullPointerException" could be thrown; "type" is nullable here.(ø·æùÿÿÿÿ

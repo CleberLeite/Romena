@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:layout_gravity="center"
+    android:id="@+id/llFrame"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLoja"
+        android:layout_width="160dp"
+        android:layout_height="240dp"
+        app:cardUseCompatPadding="false"
+        app:cardBackgroundColor="@color/BackgroundTintText"
+        app:cardElevation="5dp"
+        android:elevation="@dimen/margin_5"
+        android:layout_marginVertical="@dimen/margin_10"
+        android:layout_gravity="center"
+        android:clipToPadding="true"
+        android:outlineAmbientShadowColor="#0B3575"
+        android:outlineSpotShadowColor="#0B3575"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        app:cardCornerRadius="@dimen/margin_16">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="@dimen/margin_10"
+                app:cardCornerRadius="@dimen/margin_10">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="135dp"
+                    android:layout_height="@dimen/margin_128"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    tools:ignore="ContentDescription" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_10"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textAlignment="textStart"
+                android:textColor="@color/ColorBlueGray800"
+                android:textSize="@dimen/text_14" />
+
+            <RelativeLayout
+                android:id="@+id/shape_coins"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_24"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="@dimen/margin_10"
+                    android:background="@drawable/ic_rounded_border_amber"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_20"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="@dimen/margin_10"
+                        android:layout_marginVertical="@dimen/margin_5"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_coin_blue"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/txt_coin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/exo2_extra_bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_15"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

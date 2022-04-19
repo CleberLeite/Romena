@@ -1,0 +1,18 @@
+
+—
+java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿žù‘
+m
+java:S1149€"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+>
+java:S1185&"(Remove this method to simply inherit it.(ßìê¯
+D
+java:S18743"/Remove this use of "Handler"; it is deprecated.(Êà‹
+h
+java:S3776V"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ìÏœª
+<	java:S131W""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+K
+java:S1874‚"/Remove this use of "execute"; it is deprecated.(Õ”ô‚üÿÿÿÿ
+J
+java:S1066c"/Merge this if statement with the enclosing one.(”ðÿ‘ýÿÿÿÿ
+f
+java:S1301W"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

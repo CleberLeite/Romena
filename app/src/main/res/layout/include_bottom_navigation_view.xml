@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="@drawable/botton_navigation_corners"
+    app:backgroundTint="@color/TabBarBackground"
+    app:itemIconTint="@drawable/selection_botton_color"
+    app:itemTextColor="@drawable/selection_botton_color"
+    app:labelVisibilityMode="auto"
+    app:itemIconSize="@dimen/margin_30"
+    android:theme="@style/Widget.BottomNavigationView"
+    app:menu="@menu/bottom_navigation_menu" />

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        app:showAsAction="ifRoom"
+        android:title="@string/home"
+        android:icon="@drawable/ic_homecourt"/>
+
+    <item
+        android:id="@+id/navigation_arena"
+        app:showAsAction="ifRoom"
+        android:title="@string/arena"
+        android:icon="@drawable/ic_arena"/>
+
+    <item
+        android:id="@+id/navigation_news"
+        app:showAsAction="ifRoom"
+        android:title="@string/stiri"
+        android:icon="@drawable/ic_news"/>
+
+    <item
+        android:id="@+id/videos"
+        app:showAsAction="ifRoom"
+        android:title="@string/video"
+        android:icon="@drawable/ic_videos"/>
+
+    <item
+        android:id="@+id/shop"
+        app:showAsAction="ifRoom"
+        android:title="@string/magazin"
+        android:icon="@drawable/ic_purchases"/>
+
+</menu>

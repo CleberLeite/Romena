@@ -1,0 +1,56 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äË”şÿÿÿÿ
+r
+java:S3008"\Rename this field "access_token_shop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹µĞÕ
+z
+java:S3008"_Rename this field "access_token_tickets" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ò¦ùúÿÿÿÿ
+o
+java:S3008"YRename this field "link_ecommerce" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß£ÖĞ
+t
+java:S3008"YRename this field "link_ticketing" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ìï‘ıÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(á·á¤øÿÿÿÿ
+l
+java:S1104"VMake mainServer a static final constant or non-public and provide accessors if needed.(ˆ‰½±
+u
+java:S1104"ZMake mainServerShop a static final constant or non-public and provide accessors if needed.(öÌ–“úÿÿÿÿ
+s
+java:S1104"]Make mainServerTickets a static final constant or non-public and provide accessors if needed.(Ü´»•
+s
+java:S1104"]Make access_token_shop a static final constant or non-public and provide accessors if needed.(‹µĞÕ
+{
+java:S1104"`Make access_token_tickets a static final constant or non-public and provide accessors if needed.(‚ò¦ùúÿÿÿÿ
+n
+java:S1104"YMake serverAddress a static final constant or non-public and provide accessors if needed.(ğÓ'
+l
+java:S1104"VMake getVersion a static final constant or non-public and provide accessors if needed.(ØÆşĞ
+k
+java:S1104"UMake serverURL a static final constant or non-public and provide accessors if needed.(¢ÊŒ¶
+p
+java:S1104"ZMake link_ecommerce a static final constant or non-public and provide accessors if needed.(ß£ÖĞ
+u
+java:S1104"ZMake link_ticketing a static final constant or non-public and provide accessors if needed.(«Ìï‘ıÿÿÿÿ
+o
+java:S1104"YMake serverVersion a static final constant or non-public and provide accessors if needed.(µ¸Šò
+F
+java:S1444"0Make this "public static mainServer" field final(ˆ‰½±
+O
+java:S1444"4Make this "public static mainServerShop" field final(öÌ–“úÿÿÿÿ
+M
+java:S1444"7Make this "public static mainServerTickets" field final(Ü´»•
+M
+java:S1444"7Make this "public static access_token_shop" field final(‹µĞÕ
+U
+java:S1444":Make this "public static access_token_tickets" field final(‚ò¦ùúÿÿÿÿ
+H
+java:S1444"3Make this "public static serverAddress" field final(ğÓ'
+F
+java:S1444"0Make this "public static getVersion" field final(ØÆşĞ
+E
+java:S1444"/Make this "public static serverURL" field final(¢ÊŒ¶
+J
+java:S1444"4Make this "public static link_ecommerce" field final(ß£ÖĞ
+O
+java:S1444"4Make this "public static link_ticketing" field final(«Ìï‘ıÿÿÿÿ
+I
+java:S1444"3Make this "public static serverVersion" field final(µ¸Šò

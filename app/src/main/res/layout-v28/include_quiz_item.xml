@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardQuiz1"
+    app:cardCornerRadius="@dimen/margin_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:animateLayoutChanges="true"
+    app:cardElevation="3dp"
+    android:outlineAmbientShadowColor="#0B3575"
+    android:outlineSpotShadowColor="#0B3575"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:layout_marginRight="@dimen/margin_20"
+    app:cardUseCompatPadding="false"
+    android:backgroundTint="@color/ColorCardBlack">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/margin_10"
+        android:paddingVertical="@dimen/margin_20">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:fontFamily="@font/exo2_extra_bold"
+            android:textSize="@dimen/text_12"/>
+
+        <TextView
+            android:id="@+id/cardTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:fontFamily="@font/exo2_medium"
+            android:textSize="@dimen/text_12"
+            android:textColor="@color/ColorBlueGray300" />
+
+        <LinearLayout
+            tools:ignore="NotSibling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/size_35"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo2_medium"
+                android:textColor="#E7F0FD"
+                android:textSize="@dimen/text_15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/opcCard1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:visibility="gone"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/opcCard2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/list_alternatives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/ll_coins"
+            tools:ignore="RelativeOverlap,UseCompoundDrawables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_coin"
+                app:srcCompat="@drawable/ic_coin_anber"
+                tools:ignore="ContentDescription"
+                android:layout_width="@dimen/margin_20"
+                android:layout_height="@dimen/margin_20"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txt_moedas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/exo2_extra_bold"
+                android:textColor="@color/ColorItemYellow"
+                android:textSize="@dimen/text_15" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regulament"
+            android:textColor="@color/ColorItemYellow"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:fontFamily="@font/opensans_semi_bold"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

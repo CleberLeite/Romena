@@ -1,0 +1,96 @@
+
+q	java:S116T"\Rename this field "OP_SET_POST_ARENA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŒïè
+7
+java:S1170T"!Make this final field static too.(ôŒïè
+x
+java:S1450D"]Remove the "arenaViewModel" field and declare it as a local variable in the relevant methods.(ŞÙÒÕÿÿÿÿÿ
+w
+java:S1450J"\Remove the "userViewModel" field and declare it as a local variable in the relevant methods.(Åéæüÿÿÿÿÿ
+m
+java:S1149¡"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+—
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+œ
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+P
+java:S1874’"3Remove this use of "getDrawable"; it is deprecated.(‘Ï‰8äõüëƒ0
+R
+java:S1874¦"/Remove this use of "execute"; it is deprecated.(è¸Óôşÿÿÿÿ8«öüëƒ0
+E
+java:S1874©"/Remove this use of "Handler"; it is deprecated.(Êà‹
+=	java:S131Ì""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+=	java:S131×""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+W	java:S125º"<This block of commented-out lines of code should be removed.(¡³œŸşÿÿÿÿ
+R	java:S125À"<This block of commented-out lines of code should be removed.(‡…ı»
+W	java:S125Ò"<This block of commented-out lines of code should be removed.(åÚóıÿÿÿÿ
+Q	java:S125Ô"<This block of commented-out lines of code should be removed.(Û¹³G
+R	java:S125ê"<This block of commented-out lines of code should be removed.(Õ­º
+l
+java:S3252‚"PUse static access with "android.view.ViewGroup$LayoutParams" for "MATCH_PARENT".(ßİÆŸøÿÿÿÿ
+Y
+java:S3252˜"=Use static access with "android.view.View" for "FOCUS_RIGHT".(èÆéÃùÿÿÿÿ
+\
+java:S1874¢">Remove this use of "startActivityForResult"; it is deprecated.(Êßè8¿øüëƒ0
+a
+java:S1874§">Remove this use of "startActivityForResult"; it is deprecated.(øòùÿÿÿÿ8Æøüëƒ0
+m
+java:S1874²"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ8Ìøüëƒ0
+g
+java:S1874Â"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8èøüëƒ0
+h
+java:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹Î¾
+n
+java:S3776†"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ûà–ùÿÿÿÿ
+S
+java:S1117ˆ"<Rename "position" which hides the field declared at line 82.(³”ŸÔ
+Q
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(ÆÑ”Ù8°ùüëƒ0
+V
+java:S1874’"3Remove this use of "getDrawable"; it is deprecated.(¸ÇÕ¨ıÿÿÿÿ8³ùüëƒ0
+N
+java:S1874›"0Remove this use of "getColor"; it is deprecated.(È†˜µ8»ùüëƒ0
+N
+java:S1874œ"0Remove this use of "getColor"; it is deprecated.(Šî‘œ8¾ùüëƒ0
+N
+java:S1874¡"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò8Äùüëƒ0
+S
+java:S1874¢"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ8Æùüëƒ0
+N
+java:S1874¦"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò8Êùüëƒ0
+S
+java:S1874§"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ8Ïùüëƒ0
+J
+java:S1874á"3Remove this use of "insertImage"; it is deprecated.(´·Äè
+p	java:S100å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÑÓÆúÿÿÿÿ8ğùüëƒ0
+H
+java:S1602ï",Remove useless curly braces around statement(¼¡ÿÿÿÿÿ
+f
+java:S3252ğ"OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(³»¼º
+N
+java:S1874ğ"0Remove this use of "getColor"; it is deprecated.(³»¼º8ƒúüëƒ0
+R
+java:S1117";Rename "trigger" which hides the field declared at line 80.(—•ßŠ
+C
+java:S1481",Remove this unused "trigger" local variable.(—•ßŠ
+t	java:S116“"YRename this field "img_user_photo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÎ®æûÿÿÿÿ
+s	java:S116—"XRename this field "txt_user_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡§Éúÿÿÿÿ
+h	java:S116¡"SRename this field "txt_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™œJ
+k	java:S116¢"URename this field "arrow_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†“Ô¾
+b
+java:S1659"FDeclare "container" and all following declarations on a separate line.(ÄÑ³÷ûÿÿÿÿ
+F
+java:S1066Ğ"/Merge this if statement with the enclosing one.(ß¸é
+g	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÁ×»
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íŠüÿÿÿÿ
+g
+java:S1301Ì"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+g
+java:S1301×"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+T
+java:S1155v">Use isEmpty() to check whether the collection is empty or not.(œ×åû
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(œ×åû
+Z
+java:S1155î">Use isEmpty() to check whether the collection is empty or not.(øÊıÿÿÿÿ
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(œ×åû

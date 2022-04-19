@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#C40B3575"
+    tools:context=".activitys.WinBadgeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/content_badge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/margin_20"
+        android:backgroundTint="@color/ColorWhitte"
+        app:cardCornerRadius="@dimen/margin_20"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/curver_toolbar"
+                android:visibility="gone"
+                app:menu="@menu/menu_dialog_close" />
+
+            <ImageView
+                android:id="@+id/imageBadge"
+                android:layout_width="165dp"
+                android:layout_height="177dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="@dimen/margin_20"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textAlignment="center"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_25" />
+
+            <TextView
+                android:id="@+id/descricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textAlignment="center"
+                android:textColor="@color/MutedText"
+                android:textSize="@dimen/text_15" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/exo2_semi_bold"
+                    android:textColor="@color/ColorBlue"
+                    android:textSize="@dimen/text_15"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/view_prize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_40"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/img_coin"
+                    android:layout_width="@dimen/margin_42"
+                    android:layout_height="@dimen/margin_42"
+                    android:src="@drawable/ic_coin_blue"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/prize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_5"
+                    android:fontFamily="@font/exo2_extra_bold"
+                    android:textColor="@color/PrimaryColorText"
+                    android:textSize="@dimen/text_25"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/content_badge"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/back_rectangle_rounded_50"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/PrimaryBackground"
+        android:fontFamily="@font/opensans_semi_bold"
+        android:text="@string/next"
+        android:textColor="@color/PrimaryText"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

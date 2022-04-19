@@ -1,0 +1,111 @@
+
+f	java:S116<"RRename this field "OP_POST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÄÈx
+p	java:S116="[Rename this field "OP_DELET_COMMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¼Í×
+o	java:S116>"ZRename this field "OP_POST_COMMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¹´ó
+r	java:S116?"XRename this field "OP_DELET_POST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉšÊıüÿÿÿÿ
+o	java:S116@"ZRename this field "OP_POST_REPLIES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”›ÓÓ
+6
+java:S1170<"!Make this final field static too.(ÃÄÈx
+7
+java:S1170="!Make this final field static too.(Ö¼Í×
+7
+java:S1170>"!Make this final field static too.(Á¹´ó
+<
+java:S1170?"!Make this final field static too.(ÉšÊıüÿÿÿÿ
+7
+java:S1170@"!Make this final field static too.(”›ÓÓ
+m
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149¤"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149ª"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149±"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149á"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149í"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+>
+java:S1185U"(Remove this method to simply inherit it.(ßìê¯
+D
+java:S1874a"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776„"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ìÏœª
+=	java:S131…""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+=	java:S131Î""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+n
+java:S3776„"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Å’©ˆşÿÿÿÿ
+O
+java:S1874—"3Remove this use of "getDrawable"; it is deprecated.(›ğ»…ùÿÿÿÿ
+G
+java:S1874˜"0Remove this use of "getColor"; it is deprecated.(«€Œ
+C
+java:S1602Ä",Remove useless curly braces around statement(š›éÿ
+J
+java:S1874È".Remove this use of "locale"; it is deprecated.(¯¨şìşÿÿÿÿ
+J
+java:S1874Ö"3Remove this use of "getDrawable"; it is deprecated.(Ô„–£
+J
+java:S1874Ö"3Remove this use of "getDrawable"; it is deprecated.(Ô„–£
+F
+java:S1874İ"/Remove this use of "execute"; it is deprecated.(ë°“Ò
+O
+java:S1874ß"3Remove this use of "getDrawable"; it is deprecated.(ÅÊ“òúÿÿÿÿ
+F
+java:S1874ã"/Remove this use of "execute"; it is deprecated.(ÿÏ§Ç
+J
+java:S1874å"3Remove this use of "getDrawable"; it is deprecated.(¹›Ìñ
+X
+java:S1612‡"<Replace this lambda with method reference '::onBackPressed'.(Œ®óôÿÿÿÿÿ
+F
+java:S1874"/Remove this use of "execute"; it is deprecated.(ÜŒ€¦
+O
+java:S1874²"3Remove this use of "getDrawable"; it is deprecated.(½Åú¨ıÿÿÿÿ
+G
+java:S1874³"0Remove this use of "getColor"; it is deprecated.(Î­†å
+J
+java:S1874¹".Remove this use of "locale"; it is deprecated.(Àíª‰ıÿÿÿÿ
+F
+java:S1874ş"/Remove this use of "execute"; it is deprecated.(Ó¦à
+f
+java:S3252"OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(„‹¥
+G
+java:S1874"0Remove this use of "getColor"; it is deprecated.(„‹¥
+k
+java:S3252‘"OUse static access with "android.content.DialogInterface" for "BUTTON_NEGATIVE".(¯¿¸ıÿÿÿÿ
+L
+java:S1874‘"0Remove this use of "getColor"; it is deprecated.(¯¿¸ıÿÿÿÿ
+c
+java:S3252"LUse static access with "android.content.Context" for "INPUT_METHOD_SERVICE".(êÑ×ã
+K
+java:S1874¦"/Remove this use of "execute"; it is deprecated.(õ·éøûÿÿÿÿ
+K
+java:S1874¬"/Remove this use of "execute"; it is deprecated.(â¾ıäøÿÿÿÿ
+d	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«øå¨
+K
+java:S1874´"/Remove this use of "execute"; it is deprecated.(ÉüÜæüÿÿÿÿ
+K
+java:S1874À"/Remove this use of "execute"; it is deprecated.(Åç–îÿÿÿÿÿ
+f
+java:S3252Ô"OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(„‹¥
+G
+java:S1874Ô"0Remove this use of "getColor"; it is deprecated.(„‹¥
+k
+java:S3252Õ"OUse static access with "android.content.DialogInterface" for "BUTTON_NEGATIVE".(¯¿¸ıÿÿÿÿ
+L
+java:S1874Õ"0Remove this use of "getColor"; it is deprecated.(¯¿¸ıÿÿÿÿ
+K
+java:S1874é"/Remove this use of "execute"; it is deprecated.(÷‚±¥şÿÿÿÿ
+K
+java:S1874ò"/Remove this use of "execute"; it is deprecated.(¼¼ƒ´ùÿÿÿÿ
+n	java:S116‡"XRename this field "txtCreated_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•”Øì
+a
+java:S1659"KDeclare "contentImagens" and all following declarations on a separate line.(·Â‘s
+^
+java:S1192‡"GDefine a constant instead of duplicating this literal "Object" 3 times.(¹É¢‡
+l	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¹–Ãÿÿÿÿÿ
+g	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øø×ˆ
+g	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄÔÀ
+g
+java:S1301Î"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

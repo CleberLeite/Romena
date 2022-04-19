@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_20"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="@dimen/margin_36"
+                android:layout_height="@dimen/margin_36"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtUserName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:gravity="start"
+                        android:textColor="@color/NewsTitleText"
+                        android:textSize="@dimen/text_13"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="end"
+                        tools:ignore="UseCompoundDrawables">
+
+                   <ImageView
+                       android:id="@+id/ReplyBntDelete"
+                       android:layout_width="@dimen/margin_25"
+                       android:layout_height="@dimen/margin_25"
+                       android:src="@drawable/icon_trash"
+                       android:padding="@dimen/margin_5"
+                       app:tint="#fd7a67"
+                       android:visibility="gone"
+                       tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/hours"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_medium"
+                        android:gravity="end"
+                        android:textColor="#64748B"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/text_12" />
+
+                      </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/typeFan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_5"
+                        android:fontFamily="@font/exo_2_bold"
+                        android:gravity="start"
+                        android:textColor="@color/ThirdBackground"
+                        android:textSize="@dimen/text_12" />
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_regular"
+                        android:textSize="@dimen/text_13"
+                        android:layout_marginTop="@dimen/text_5"
+                        android:textColor="@color/ColorPolitcs"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

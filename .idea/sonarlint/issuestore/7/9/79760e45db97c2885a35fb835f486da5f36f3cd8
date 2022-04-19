@@ -1,0 +1,12 @@
+
+p	java:S116"VRename this field "OP_GET_HOME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îƒ€úûÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(îƒ€úûÿÿÿÿ
+l
+java:S1149$"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+J
+java:S1874 "/Remove this use of "execute"; it is deprecated.(‡ã¸´úÿÿÿÿ
+E
+java:S1874&"/Remove this use of "execute"; it is deprecated.(æãŸæ
+m
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ù¼½›ùÿÿÿÿ

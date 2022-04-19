@@ -1,0 +1,72 @@
+
+o
+java:S14505"YRemove the "arrayTeste" field and declare it as a local variable in the relevant methods.(´ÖÁú
+>
+java:S1185C"(Remove this method to simply inherit it.(ßìê¯
+
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Î£²¤øÿÿÿÿ
+
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ™¢§ûÿÿÿÿ
+
+java:S1186­"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+
+java:S1186¼"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186Æ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+
+java:S1186Ş"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ™¢§ûÿÿÿÿ
+
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186è"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+
+java:S1186ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+F
+java:S1874ˆ"/Remove this use of "Handler"; it is deprecated.(ƒä² 
+˜
+java:S1186Œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+
+java:S1186Ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+W
+java:S1117ª";Rename "adapter" which hides the field declared at line 56.(‚–«Èüÿÿÿÿ
+n
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ûà–ùÿÿÿÿ
+S
+java:S1117³"<Rename "position" which hides the field declared at line 49.(³”ŸÔ
+O
+java:S1874»"3Remove this use of "getDrawable"; it is deprecated.(Äáùìÿÿÿÿÿ
+O
+java:S1874½"3Remove this use of "getDrawable"; it is deprecated.(¸ÇÕ¨ıÿÿÿÿ
+G
+java:S1874Æ"0Remove this use of "getColor"; it is deprecated.(È†˜µ
+G
+java:S1874Ç"0Remove this use of "getColor"; it is deprecated.(Šî‘œ
+G
+java:S1874Ì"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò
+L
+java:S1874Í"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ
+G
+java:S1874Ñ"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò
+L
+java:S1874Ò"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ
+E
+java:S1874Ş"/Remove this use of "execute"; it is deprecated.(§ş—n
+n	java:S116"SRename this field "txt_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¢ ûÿÿÿÿ
+k	java:S116"URename this field "arrow_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†“Ô¾
+a
+java:S1659"EDeclare "titleCat" and all following declarations on a separate line.(¤¢ ûÿÿÿÿ
+l	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íŠüÿÿÿÿ
+D
+java:S1604"(Make this anonymous inner class a lambda(êôŸ—ûÿÿÿÿ
+^
+java:S2259X"HA "NullPointerException" could be thrown; "orderItens" is nullable here.(º›®û
+]
+java:S2259_"BA "NullPointerException" could be thrown; "item" is nullable here.(ÚÀÚ¢ÿÿÿÿÿ

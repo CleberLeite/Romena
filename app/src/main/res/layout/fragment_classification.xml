@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.frf.app.fragments.ClassificationFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:text="@string/liga_na_iunilor"
+        android:textColor="@color/NewsTitleText"
+        android:fontFamily="@font/exo2_semi_bold"
+        android:textSize="@dimen/text_19" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/competitionTables"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"/>
+
+</LinearLayout>

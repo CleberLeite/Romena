@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.frf.app.activitys.SeatTicketActivity">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/margin_30"
+        android:layout_height="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_10"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:text="Liga Națiunilor"
+        android:textColor="@color/ColorEventsTitle"
+        android:textSize="@dimen/text_29"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:text="Grupa 1"
+        android:textColor="@color/PrimaryColorHint"
+        android:textSize="@dimen/text_25"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_5"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginBottom="@dimen/margin_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_primari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/PrimaryText"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/margin_15"
+                        android:text="România" />
+
+                </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_cat"
+                        android:layout_width="@dimen/size_35"
+                        android:layout_height="@dimen/margin_19"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textAllCaps="false"
+                        android:text="VS"
+                        android:button="@android:color/transparent"
+                        android:paddingLeft="@dimen/margin_10"
+                        android:paddingRight="@dimen/margin_10"
+                        android:backgroundTint="@color/PrimaryColorHint"
+                        android:background="@drawable/back_rectangle_rounded_50"
+                        android:textColor="@color/PrimaryBackground"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_13" />
+
+                <LinearLayout
+                    android:id="@+id/ll_third"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="end"
+                    android:layout_gravity="end"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/PrimaryText"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/margin_14"
+                        android:text="Norvegia" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginHorizontal="@dimen/margin_60">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:text="24.12"
+            android:textColor="@color/PrimaryColorHint"
+            android:textSize="@dimen/text_13"
+            android:fontFamily="@font/exo_2_bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:text="National Arena"
+            android:textColor="@color/PrimaryColorHint"
+            android:textSize="@dimen/text_13"
+            android:fontFamily="@font/exo_2_bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:text="21:30"
+            android:textColor="@color/PrimaryColorHint"
+            android:textSize="@dimen/text_13"
+            android:fontFamily="@font/exo_2_bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/round_shape"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_30"
+                android:background="@drawable/round_shape">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_shape"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_20"
+                            android:layout_marginEnd="@dimen/margin_20"
+                            android:text="Detalii Bilet"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_19"
+                            android:fontFamily="@font/exo2_semi_bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="@dimen/margin_20"
+                            android:layout_marginEnd="@dimen/margin_20"
+                            android:text="30,00 RON"
+                            android:textColor="@color/NewsTitleText"
+                            android:textSize="@dimen/text_17"
+                            android:fontFamily="@font/exo2_medium"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_change_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_20"
+                        app:cardBackgroundColor="@color/BackgroundTintText"
+                        app:cardCornerRadius="@dimen/margin_20">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_marginRight="@dimen/margin_20"
+                            android:layout_marginTop="@dimen/margin_20"
+                            android:layout_marginBottom="@dimen/margin_20"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="Zona"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/NewsTitleText"
+                                    android:textSize="@dimen/text_19"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="1"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/ColorBlue"
+                                    android:textSize="@dimen/text_25"
+                                    android:fontFamily="@font/exo2_medium"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="Sector"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/NewsTitleText"
+                                    android:textSize="@dimen/text_19"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="125"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/ColorBlue"
+                                    android:textSize="@dimen/text_25"
+                                    android:fontFamily="@font/exo2_medium"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="Rând"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/NewsTitleText"
+                                    android:textSize="@dimen/text_19"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="D"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/ColorBlue"
+                                    android:textSize="@dimen/text_25"
+                                    android:fontFamily="@font/exo2_medium"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="Loc"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/NewsTitleText"
+                                    android:textSize="@dimen/text_19"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_20"
+                                    android:layout_marginEnd="@dimen/margin_20"
+                                    android:text="1"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/ColorBlue"
+                                    android:textSize="@dimen/text_25"
+                                    android:fontFamily="@font/exo2_medium"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_20"
+                        android:layout_marginEnd="@dimen/margin_20"
+                        android:text="Cod de bare"
+                        android:textColor="@color/NewsTitleText"
+                        android:textSize="@dimen/text_19"
+                        android:textStyle="bold" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_20"
+                        app:cardBackgroundColor="@color/BackgroundTintText"
+                        app:cardCornerRadius="@dimen/margin_20">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_marginRight="@dimen/margin_20"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_qr_code"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/margin_310"
+                                android:gravity="center"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <Button
+                        android:id="@+id/btn_edit_enter"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_56"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_70"
+                        android:background="@drawable/back_rectangle_rounded_50"
+                        android:backgroundTint="@color/PrimaryBackground"
+                        android:padding="15dp"
+                        android:text="DESCARCĂ BILET"
+                        android:textAllCaps="false"
+                        android:textColor="@color/PrimaryText"
+                        android:textSize="@dimen/text_13" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <include layout="@layout/include_bottom_navigation_view" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

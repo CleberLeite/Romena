@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/drawable/ic_news.xml" value="0.1595" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout-v28/include_card_tipo_1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_arena_create_post.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_general_ticket.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_help.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_maintenance_lock.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_settings_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_start_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_tickets.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/activity_video.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/adapter_item_table.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/adapter_match_competitions.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/adapter_news.xml" value="0.25" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/adapter_videos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_account.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_arena.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_arena_view_post.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_classification.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_events.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_events_matches.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_events_upcoming_match.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_item_news.xml" value="0.5" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_magazin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_matches.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_news.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_perfil.xml" value="0.15" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_quiz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_ranking.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_requests.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_resale.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_rewards.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_shop.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_shop_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_ticket.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_title_ranking.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_top_ranking.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/fragment_videos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/include_bottom_navigation_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/include_card_tipo_1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/include_card_tipo_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/include_home_header.xml" value="0.5" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/layout/include_quiz_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Cleber Leite/Documents/Projects/Sportheca/Federacao Romena/Romena/romena/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

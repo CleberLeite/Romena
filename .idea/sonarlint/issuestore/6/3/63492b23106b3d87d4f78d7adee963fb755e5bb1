@@ -1,0 +1,52 @@
+
+
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡»ˆºıÿÿÿÿ
+
+java:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜ı‚üÿÿÿÿ
+˜
+java:S1186§"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­Çä“
+
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÕÔäÿÿÿÿÿ
+q
+java:S1149/"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(™…Öœÿÿÿÿÿ
+q
+java:S1149:"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(™…Öœÿÿÿÿÿ
+L
+java:S2696 "6Make the enclosing method "static" or remove this set.(õ™äî
+Q
+java:S2696$"6Make the enclosing method "static" or remove this set.(ñõîÙşÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(ì‰ ‰ûÿÿÿÿ
+E
+java:S18744"/Remove this use of "execute"; it is deprecated.(Ò™ç­
+V	java:S125E"<This block of commented-out lines of code should be removed.(™šÊ¥ùÿÿÿÿ
+œ
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(èÂ‚Ùûÿÿÿÿ
+—
+java:S1186O"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìÏœª
+—
+java:S1186T"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿ù‘
+<	java:S131e""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+<	java:S131{""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+W	java:S125ˆ"<This block of commented-out lines of code should be removed.(°ğ®§şÿÿÿÿ
+t
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(™…Öœÿÿÿÿÿ
+t
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(™…Öœÿÿÿÿÿ
+b
+java:S1192i"GDefine a constant instead of duplicating this literal "Status" 4 times.(¼¥‚Àıÿÿÿÿ
+f
+java:S1301e"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+f
+java:S1301{"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ
+j
+java:S1104"TMake instance a static final constant or non-public and provide accessors if needed.(¢„·Â
+g
+java:S1104"QMake prefs a static final constant or non-public and provide accessors if needed.(êİˆÜ
+l
+java:S1104H"VMake emptyAsync a static final constant or non-public and provide accessors if needed.(Óø‰Ç
+D
+java:S1444".Make this "public static instance" field final(¢„·Â
+A
+java:S1444"+Make this "public static prefs" field final(êİˆÜ
+F
+java:S1444H"0Make this "public static emptyAsync" field final(Óø‰Ç

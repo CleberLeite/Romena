@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "924994199113",
+    "project_id": "frf---romena",
+    "storage_bucket": "frf---romena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924994199113:android:55f33c0d4c4794358be998",
+        "android_client_info": {
+          "package_name": "com.frf.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924994199113-qm25eq42mqesodpli03vvpi1obu4n6p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frf.app",
+            "certificate_hash": "4c9b5e23d95963182595d39f944affc351dfed3a"
+          }
+        },
+        {
+          "client_id": "924994199113-8oaeofvnrgi0c43tj6b94o3ohu6kdcg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnAkg56GO9GbBz0MnzLwt4moiT4PHwB4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924994199113-8oaeofvnrgi0c43tj6b94o3ohu6kdcg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

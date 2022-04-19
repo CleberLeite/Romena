@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_opc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_48"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:background="@drawable/back_rectangle_rounded_50"
+        android:backgroundTint="@color/ColorTextTickets"
+        android:fontFamily="@font/exo2_semi_bold"
+        android:paddingHorizontal="@dimen/margin_20"
+        android:text="1994"
+        android:textAllCaps="false"
+        android:textColor="@color/PrimaryColorText"
+        android:textSize="@dimen/text_13" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardShopCategory"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_62sdp"
+            app:cardBackgroundColor="@color/BackgroundTintText"
+            app:cardCornerRadius="@dimen/_11sdp"
+            app:cardElevation="@dimen/_5sdp"
+            android:outlineAmbientShadowColor="#0B3575"
+            android:outlineSpotShadowColor="#0B3575"
+            app:cardUseCompatPadding="false"
+            android:layout_marginBottom="@dimen/_9sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/margin_20">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_90sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_shop_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/exo2_medium"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:textFontWeight="700"
+                    android:textColor="@color/ColorBlueGray800"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="RelativeOverlap" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/img_shop_category"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/_40sdp"
+        tools:ignore="ContentDescription" />
+
+</FrameLayout>
+

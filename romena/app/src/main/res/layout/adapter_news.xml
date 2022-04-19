@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.frf.app.views.RoundedShadowedLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_15"
+    android:layout_marginBottom="@dimen/margin_8"
+    android:paddingTop="@dimen/margin_5"
+    android:paddingEnd="@dimen/margin_5"
+    android:paddingStart="@dimen/margin_5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20">
+
+        <ImageView
+            android:id="@+id/img_card1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@color/PrimaryBackground"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:fontFamily="@font/exo2_extra_bold"
+            android:text="@string/tiri"
+            android:textColor="@color/PrimaryText"
+            android:textSize="@dimen/text_12"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_card1"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_cat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/exo2_extra_bold"
+                    android:gravity="start"
+                    android:textColor="@color/ThirdBackground"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/margin_12"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/time_tipo_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/exo2_medium"
+                    android:gravity="end"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textColor="@color/MutedText"
+                    android:textSize="@dimen/text_12" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/titulo_tipo_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/desc_tipo_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_12" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.frf.app.views.RoundedShadowedLayout>

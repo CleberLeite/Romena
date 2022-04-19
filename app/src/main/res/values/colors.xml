@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="PrimaryBackground">#0B3575</color>
+    <color name="SecondBackground">#F1F5F9</color>
+    <color name="ThirdBackground">#1E293B</color>
+    <color name="BackgroundTintText">#ffffff</color>
+    <color name="PrimaryText">#ffffff</color>
+    <color name="BackgroundSlides">#0F172A</color>
+    <color name="MutedText">#64748B</color>
+    <color name="NewsTitleText">#1E293B</color>
+    <color name="TextOverSplashImage">#ffffff</color>
+    <color name="PrimaryButtonText">#212121</color>
+    <color name="PrimaryAnchor">#fad816</color>
+    <color name="TabBarBackground">#FFFFFF</color>
+    <color name="TabBarSelected">#0B3575</color>
+    <color name="TabBarUnselected">#0B3575</color>
+    <color name="AlternativeCardBackground">#1d1d1d</color>
+
+    <color name="MaintenanceBackground">#FCD34D</color>
+    <color name="AllowNotificationBackground">#F6C357</color>
+    <color name="PrimaryColorText">#0B3575</color>0B3575
+    <color name="PrimaryColorHint">#93C5FD</color>
+    <color name="ColorNotificationValue">#1E293B</color>
+    <color name="ColorTitleCard">#0B3575</color>
+    <color name="ColorItemYellow">#FCD34D</color>
+
+    <color name="ColorTextItemNavigatorBar">#0553C6</color>
+    <color name="NotificationBackground">#001D47</color>
+    <color name="NotificationItemBackground">#002B7F</color>
+
+    <color name="ColorBackgroundButton">#CBD5E1</color>
+    <color name="ColorTextPerfil">#E7F0FD</color>
+    <color name="ColorTextTickets">#E7F0FD</color>
+    <color name="ColorEventsTitle">#E7F0FD</color>
+    <color name="ColorRed">#DC2626</color>
+    <color name="ColorBlue">#0553C7</color>
+    <color name="ColorWhitte">#ffffff</color>
+    <color name="ColorPolitcs">#334155</color>
+    <color name="ColorStatusLivrat">#10B981</color>
+    <color name="ColorTicketsCodBarras">#6EA5F7</color>
+    <color name="ColorItemRow">#475569</color>
+    <color name="ColorCardBlack">#01255A</color>
+    <color name="ColorGreen500">#22C55E</color>
+    <color name="ColorBlueGray800">#1E293B</color>
+    <color name="ColorBlueGray700">#334155</color>
+    <color name="ColorBlueGray100">#F1F5F9</color>
+    <color name="ColorAmber300">#FCD34D</color>
+    <color name="ColorBlueGray200">#E2E8F0</color>
+    <color name="ColorBlueGray300">#CBD5E1</color>
+    <color name="ColorBlueGray500">#64748B</color>
+    <color name="ColorBlueGray600">#475569</color>
+    <color name="ColorBlueGray400">#94A3B8</color>
+    <color name="ColorRed600">#DC2626</color>
+    <color name="ColorItemRank2">#D97706</color>
+
+
+    <color name="colorPrimaryHeader">#0D3675</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+</resources>

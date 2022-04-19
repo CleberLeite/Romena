@@ -1,0 +1,94 @@
+
+˜
+java:S1186½"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿žù‘
+>
+java:S1185g"(Remove this method to simply inherit it.(ßìê¯
+D
+java:S1874u"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ìÏœª
+=	java:S131˜""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+W
+java:S1117¢"@Rename "categoryData" which hides the field declared at line 83.(øÏ„¡
+R	java:S125È"<This block of commented-out lines of code should be removed.(Éºû®
+W	java:S125Ï"<This block of commented-out lines of code should be removed.( ›Öáûÿÿÿÿ
+R	java:S125ý"<This block of commented-out lines of code should be removed.(£ùÍ»
+K
+java:S1874"/Remove this use of "execute"; it is deprecated.(Ï®´Çüÿÿÿÿ
+n
+java:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(–™æ¨øÿÿÿÿ
+D	java:S108±")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ
+K
+java:S1874»"/Remove this use of "execute"; it is deprecated.(½îÜëüÿÿÿÿ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ™¢§ûÿÿÿÿ
+
+java:S1186”"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(žáá„üÿÿÿÿ
+
+java:S1186™"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðŒÂ´þÿÿÿÿ
+
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ð¡þÿÿÿÿ
+
+java:S1186­"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(žáá„üÿÿÿÿ
+
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðŒÂ´þÿÿÿÿ
+
+java:S1186Å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ™¢§ûÿÿÿÿ
+
+java:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(žáá„üÿÿÿÿ
+
+java:S1186Ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðŒÂ´þÿÿÿÿ
+
+java:S1186Ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ð¡þÿÿÿÿ
+
+java:S1186ã"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(žáá„üÿÿÿÿ
+
+java:S1186è"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðŒÂ´þÿÿÿÿ
+F
+java:S1874ð"/Remove this use of "execute"; it is deprecated.(Ù‚®ù
+n
+java:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(ûà–ùÿÿÿÿ
+S
+java:S1117„"<Rename "position" which hides the field declared at line 79.(³”ŸÔ
+O
+java:S1874Œ"3Remove this use of "getDrawable"; it is deprecated.(Äáùìÿÿÿÿÿ
+O
+java:S1874Ž"3Remove this use of "getDrawable"; it is deprecated.(¸ÇÕ¨ýÿÿÿÿ
+G
+java:S1874—"0Remove this use of "getColor"; it is deprecated.(È†˜µ
+G
+java:S1874˜"0Remove this use of "getColor"; it is deprecated.(Šî‘œ
+G
+java:S1874"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò
+L
+java:S1874ž"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ
+G
+java:S1874¢"0Remove this use of "getColor"; it is deprecated.(ƒ–”Ò
+L
+java:S1874£"0Remove this use of "getColor"; it is deprecated.(ÏÌ–½ÿÿÿÿÿ
+E
+java:S1874¯"/Remove this use of "execute"; it is deprecated.(Þ·½*
+c	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î˜ã
+h
+java:S3776Ø"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Î˜ã
+K
+java:S1874—"/Remove this use of "execute"; it is deprecated.(óŠÎÀÿÿÿÿÿ
+h	java:S116Ä"SRename this field "txt_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™œJ
+k	java:S116Å"URename this field "arrow_drop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†“Ô¾
+L
+java:S1068R"1Remove this unused "userViewModel" private field.(Åéæüÿÿÿÿÿ
+K
+java:S1068S"0Remove this unused "categoryData" private field.(ÆÔÉíþÿÿÿÿ
+b
+java:S1192©"FDefine a constant instead of duplicating this literal "Toate" 3 times.(õšãÛüÿÿÿÿ
+_
+java:S1192Ú"HDefine a constant instead of duplicating this literal "#0B3575" 3 times.(ôŠ¦¸
+o	java:S135ã"YReduce the total number of break and continue statements in this loop to use at most one.(Ã‘Ã
+m	java:S127®"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+F
+java:S1066ë"/Merge this if statement with the enclosing one.(ÁÉýƒ
+Q
+java:S1141¬"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íŠüÿÿÿÿ
+g
+java:S1301˜"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

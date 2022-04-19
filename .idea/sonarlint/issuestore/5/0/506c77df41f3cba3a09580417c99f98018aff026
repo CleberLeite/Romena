@@ -1,0 +1,149 @@
+
+w
+java:S1450Y"\Remove the "hasPushToCall" field and declare it as a local variable in the relevant methods.(Äó­ıÿÿÿÿ
+w
+java:S1450S"\Remove the "userViewModel" field and declare it as a local variable in the relevant methods.(Åéæüÿÿÿÿÿ
+m
+java:S1149Ñ"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+m
+java:S1149™"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+t	java:S115j"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤£½ûÿÿÿÿ
+t	java:S115k"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õå»±ÿÿÿÿÿ
+t	java:S115l"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢ÙØÛùÿÿÿÿ
+t	java:S115m"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ç‹ÜÏüÿÿÿÿ
+o	java:S115n"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—‘¸§
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Îúç{
+M
+java:S2696œ"6Make the enclosing method "static" or remove this set.(©ÔŒü
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(ûÉ¹Ã
+E
+java:S1874¬"/Remove this use of "execute"; it is deprecated.(Õ ÆM
+^
+java:S1874­";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8Šë¢èƒ0
+K
+java:S1874´"/Remove this use of "execute"; it is deprecated.(á£©İÿÿÿÿÿ
+^
+java:S1874µ";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8ë¢èƒ0
+K
+java:S1874¼"/Remove this use of "execute"; it is deprecated.(ò…ü•øÿÿÿÿ
+E
+java:S1874Ç"/Remove this use of "execute"; it is deprecated.(·ôÁ
+F
+java:S1874Ò"/Remove this use of "execute"; it is deprecated.(ëûªæ
+E
+java:S1874×"/Remove this use of "execute"; it is deprecated.(â¿£g
+^
+java:S1874Ø";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8—ë¢èƒ0
+R	java:S125İ"<This block of commented-out lines of code should be removed.(ÎÕ“ı
+K
+java:S1874á"/Remove this use of "execute"; it is deprecated.(ˆ¿²šıÿÿÿÿ
+^
+java:S1874â";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8ë¢èƒ0
+K
+java:S1874é"/Remove this use of "execute"; it is deprecated.(×©ÂÛùÿÿÿÿ
+^
+java:S1874ê";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8 ë¢èƒ0
+K
+java:S1874ñ"/Remove this use of "execute"; it is deprecated.(É¾Öëûÿÿÿÿ
+^
+java:S1874ò";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8¢ë¢èƒ0
+h
+java:S1874„"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ŸŒ¹Ñ8¦ë¢èƒ0
+V
+java:S1874†"8Remove this use of "onActivityResult"; it is deprecated.(«ĞÄµ8§ë¢èƒ0
+X
+java:S2209¦"5Change this instance-reference to a static reference.(«‹ÌŠüÿÿÿÿ8²ë¢èƒ0
+S
+java:S1874¦"0Remove this use of "getColor"; it is deprecated.(«‹ÌŠüÿÿÿÿ8³ë¢èƒ0
+R
+java:S2209§"5Change this instance-reference to a static reference.(ßó¿C8´ë¢èƒ0
+M
+java:S1874§"0Remove this use of "getColor"; it is deprecated.(ßó¿C8µë¢èƒ0
+8	java:S131²""Add a default case to this switch.(í¼šâ
+h
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Š­Åf
+K
+java:S1874Ó"/Remove this use of "execute"; it is deprecated.(ş»³üıÿÿÿÿ
+8	java:S131Õ""Add a default case to this switch.(ÜŸ•
+?	java:S108Ö")Either remove or fill this block of code.(ÔÎİ
+E
+java:S1874¢"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Óè‘
+˜
+java:S1186Å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿ù‘
+S
+java:S1854¦"7Remove this useless assignment to local variable "msg".(Ê…œ·øÿÿÿÿ
+D
+java:S1481¢"(Remove this unused "msg" local variable.(‰œòùÿÿÿÿ
+G
+java:S1481£"+Remove this unused "status" local variable.(Ç²ëıÿÿÿÿ
+K
+java:S1874È"/Remove this use of "execute"; it is deprecated.(ş¨ïúşÿÿÿÿ
+^
+java:S1874á";Remove this use of "LabelVisibilityMode"; it is deprecated.(¨Ò³ëûÿÿÿÿ8Œì¢èƒ0
+K
+java:S1874ù"/Remove this use of "execute"; it is deprecated.(ÈÄ§²ÿÿÿÿÿ
+K
+java:S1874ş"/Remove this use of "execute"; it is deprecated.(ÙÈ³´şÿÿÿÿ
+F
+java:S1874ƒ"/Remove this use of "execute"; it is deprecated.(äİÖµ
+K
+java:S1874ˆ"/Remove this use of "execute"; it is deprecated.(¨¦ÿşÿÿÿÿ
+K
+java:S1874"/Remove this use of "execute"; it is deprecated.(ğÅ‚”ùÿÿÿÿ
+t	java:S131‘"YComplete cases by adding the missing enum constants or add a default case to this switch.(áº‚Õüÿÿÿÿ
+F
+java:S1874“"/Remove this use of "execute"; it is deprecated.(ç¢Âˆ
+K
+java:S1874—"/Remove this use of "execute"; it is deprecated.(‰¤·úÿÿÿÿ
+K
+java:S1874›"/Remove this use of "execute"; it is deprecated.(ÙÕ¹Åüÿÿÿÿ
+K
+java:S1874Ÿ"/Remove this use of "execute"; it is deprecated.(åø¼™ûÿÿÿÿ
+n
+java:S1874¨"KRemove this use of "setOnNavigationItemSelectedListener"; it is deprecated.(Ê¢¾‡ùÿÿÿÿ8’ì¢èƒ0
+X
+java:S1874«";Remove this use of "LabelVisibilityMode"; it is deprecated.(‹ÉŠ8“ì¢èƒ0
+?	java:S131­""Add a default case to this switch.(¿›İ”8”ì¢èƒ0
+F
+java:S1874Ç"/Remove this use of "execute"; it is deprecated.(¾óĞ—
+F
+java:S1874Ò"/Remove this use of "execute"; it is deprecated.(Í¼Ôš
+K
+java:S1874Ù"/Remove this use of "execute"; it is deprecated.(ƒ‡‹°üÿÿÿÿ
+K
+java:S1874à"/Remove this use of "execute"; it is deprecated.(‡şø•úÿÿÿÿ
+m
+java:S3252‚"OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(˜Ä¡í8ì¢èƒ0
+N
+java:S1874‚"0Remove this use of "getColor"; it is deprecated.(˜Ä¡í8Ÿì¢èƒ0
+l
+java:S3252ƒ"OUse static access with "android.content.DialogInterface" for "BUTTON_NEGATIVE".(ã;8Ÿì¢èƒ0
+M
+java:S1874ƒ"0Remove this use of "getColor"; it is deprecated.(ã;8Ÿì¢èƒ0
+F
+java:S1874˜"/Remove this use of "execute"; it is deprecated.(š†ŠÙ
+˜
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿ù‘
+F
+java:S1874®"/Remove this use of "execute"; it is deprecated.(ˆäºÓ
+L
+java:S1068Y"1Remove this unused "hasPushToCall" private field.(Äó­ıÿÿÿÿ
+c
+java:S1192Ï"GDefine a constant instead of duplicating this literal "idPush" 3 times.(ÄñÀéûÿÿÿÿ
+i
+java:S1192¾"MDefine a constant instead of duplicating this literal "ShopFragment" 4 times.(¸–Ÿ–ûÿÿÿÿ
+_
+java:S1192¥"HDefine a constant instead of duplicating this literal "Message" 3 times.(İ¶ˆ¿
+c
+java:S1192©"GDefine a constant instead of duplicating this literal "Status" 3 times.(§ñëÿÿÿÿÿ
+l
+java:S1192ã"PDefine a constant instead of duplicating this literal "RewardsFragment" 3 times.(òÆœˆıÿÿÿÿ
+l	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÖ‚£üÿÿÿÿ
+b
+java:S1301²"KReplace this "switch" statement by "if" statements to increase readability.(í¼šâ
+„
+java:S4165º"hRemove this useless assignment; "pushBundle" already holds the assigned value along all execution paths.(×ğô‚øÿÿÿÿ

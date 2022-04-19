@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_210sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/llFrame"
+    android:orientation="vertical">
+
+    <com.frf.app.views.RoundedShadowedLayout
+        android:id="@+id/cardLoja"
+        android:layout_width="@dimen/_138sdp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="@dimen/_7sdp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_18sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="@dimen/_99sdp"
+                        android:layout_height="@dimen/_99sdp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/content_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:visibility="gone"
+                    android:minWidth="@dimen/_31sdp"
+                    app:cardBackgroundColor="@color/ColorRed"
+                    app:cardCornerRadius="@dimen/_600sdp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/discount_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_4sdp"
+                        android:fontFamily="@font/exo_2_bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_9ssp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="@dimen/_99sdp"
+                android:layout_height="wrap_content"
+                android:autoSizeMinTextSize="@dimen/_7ssp"
+                android:autoSizeMaxTextSize="@dimen/_11ssp"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textFontWeight="600"
+                android:maxLines="2"
+                android:layout_gravity="center"
+                android:textColor="@color/ColorBlueGray800"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:id="@+id/old_value"
+                android:layout_width="@dimen/_99sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/ColorBlueGray400"
+                android:textSize="@dimen/_8ssp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textFontWeight="600"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:maxLines="1"
+                android:layout_marginHorizontal="@dimen/_8sdp"/>
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="@dimen/_99sdp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:maxLines="1"
+                android:gravity="bottom"
+                android:paddingBottom="@dimen/_3sdp"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/ColorRed"/>
+
+        </LinearLayout>
+
+    </com.frf.app.views.RoundedShadowedLayout>
+</FrameLayout>

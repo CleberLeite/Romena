@@ -1,0 +1,16 @@
+
+œ
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(èÂ‚Ùûÿÿÿÿ
+—
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìÏœª
+—
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿žù‘
+l
+java:S1450"VRemove the "mHolder" field and declare it as a local variable in the relevant methods.(€Þ×½
+|
+java:S1450"aRemove the "mfragmentViewModel" field and declare it as a local variable in the relevant methods.(Ô¤ç•ùÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(‚™ŠÄüÿÿÿÿ
+A
+java:S1068"+Remove this unused "mHolder" private field.(€Þ×½
+Q
+java:S1068"6Remove this unused "mfragmentViewModel" private field.(Ô¤ç•ùÿÿÿÿ

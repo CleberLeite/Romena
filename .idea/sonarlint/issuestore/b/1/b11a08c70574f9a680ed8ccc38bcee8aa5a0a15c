@@ -1,0 +1,57 @@
+
+i	java:S1164"TRename this field "gcm_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®˜ÂŒ
+˜
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿ù‘
+K
+java:S2696a"6Make the enclosing method "static" or remove this set.(İİôZ
+L
+java:S2696f"6Make the enclosing method "static" or remove this set.(ªßßÇ
+m
+java:S3776n"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‡»ˆºıÿÿÿÿ
+U
+java:S1874r":Remove this use of "ViewModelProviders"; it is deprecated.(€´ãêúÿÿÿÿ
+E
+java:S1874r"*Remove this use of "of"; it is deprecated.(€´ãêúÿÿÿÿ
+K
+java:S1874´"/Remove this use of "execute"; it is deprecated.(½ÂÑúúÿÿÿÿ
+i	java:S100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã’Şüÿÿÿÿ
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È›Şøøÿÿÿÿ
+d	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã ½ş
+d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á˜À†
+K
+java:S1874©"/Remove this use of "execute"; it is deprecated.(­á¥üşÿÿÿÿ
+R
+java:S2696«"6Make the enclosing method "static" or remove this set.(ù†Óıüÿÿÿÿ
+i	java:S100µ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ”ï³ùÿÿÿÿ
+i	java:S100À"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€µ«½ÿÿÿÿÿ
+d	java:S100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å”àÇ
+E
+java:S1874Õ"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776ù"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ìÏœª
+b	java:S128û"LEnd this switch case with an unconditional break, return or throw statement.( ¹Ö¿
+=	java:S131ú""Add a default case to this switch.(á¤¥Æúÿÿÿÿ
+?	java:S108û")Either remove or fill this block of code.( ¹Ö¿
+R
+java:S2696“"6Make the enclosing method "static" or remove this set.(¤şˆÔÿÿÿÿÿ
+R
+java:S2696”"6Make the enclosing method "static" or remove this set.(«–¾œûÿÿÿÿ
+R
+java:S2696™"6Make the enclosing method "static" or remove this set.(©ÌİÕùÿÿÿÿ
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(œÂ×‰
+C
+java:S10684"-Remove this unused "gcm_token" private field.(®˜ÂŒ
+c
+java:S1192Œ"GDefine a constant instead of duplicating this literal "Status" 3 times.(§ñëÿÿÿÿÿ
+c
+java:S1192â"GDefine a constant instead of duplicating this literal "idPush" 3 times.(¡Ê¼Àıÿÿÿÿ
+_
+java:S1192†"HDefine a constant instead of duplicating this literal "Message" 3 times.(İ¶ˆ¿
+k
+java:S1192˜"ODefine a constant instead of duplicating this literal "link_ecommerce" 3 times.(ß„‡Òúÿÿÿÿ
+k
+java:S1192œ"ODefine a constant instead of duplicating this literal "link_ticketing" 3 times.(‘¸úùÿÿÿÿ
+l	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÌı„øÿÿÿÿ
+g
+java:S1301ú"KReplace this "switch" statement by "if" statements to increase readability.(á¤¥Æúÿÿÿÿ

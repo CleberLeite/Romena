@@ -1,0 +1,35 @@
+
+?
+java:S16597"$Declare "isPush" on a separate line.(þ›¥£þÿÿÿÿ
+l
+java:S1149W"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+l
+java:S1149]"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(’—Áö
+D
+java:S1874b"/Remove this use of "Handler"; it is deprecated.(Êà‹
+i
+java:S3776„"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ìÏœª
+Y
+java:S1126©"BReplace this if-then-else statement by a single method invocation.(º˜åÔ
+n
+java:S3776æ"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ü‘ïëþÿÿÿÿ
+9
+java:S1659ð"#Declare "txtT2" on a separate line.(¼ÙÀ
+T
+java:S1117¦"6Rename "id" which hides the field declared at line 54.(–¬Í‚8µÚ‹˜‚0
+@
+java:S1659É"$Declare "llList" on a separate line.(•«Ž¹øÿÿÿÿ
+^
+java:S1192†"GDefine a constant instead of duplicating this literal "Object" 5 times.(¹É¢‡
+K
+java:S1066õ"/Merge this if statement with the enclosing one.(Ÿõó›øÿÿÿÿ
+K
+java:S1066û"/Merge this if statement with the enclosing one.(Ÿõó›øÿÿÿÿ
+F
+java:S1066ˆ"/Merge this if statement with the enclosing one.(›¨ð°
+F
+java:S1066Ž"/Merge this if statement with the enclosing one.(›¨ð°
+l	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïñ¸Žûÿÿÿÿ
+l	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÒËœüÿÿÿÿ
+l	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Þ£®¦ýÿÿÿÿ
+g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÕö«

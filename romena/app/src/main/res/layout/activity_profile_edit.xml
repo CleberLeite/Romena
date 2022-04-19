@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.frf.app.activitys.ProfileEditActivity">
+
+    <ImageButton
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/margin_30"
+        android:layout_height="@dimen/margin_30"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:background="@android:color/transparent"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_back_black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="@string/editeaz_profilul"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_19"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/idUserImg"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_avatar_placeholder"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/idUserImg"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_90"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/idUserImg">
+
+                    <RelativeLayout
+                        android:id="@+id/selectPhoto"
+                        android:layout_width="@dimen/margin_36"
+                        android:layout_height="@dimen/margin_36"
+                        android:layout_below="@+id/idUserImg"
+                        android:background="@drawable/ic_background_blue_strong"
+                        android:backgroundTint="@color/ColorAmber300">
+
+                        <ImageView
+                            android:layout_width="@dimen/margin_24"
+                            android:layout_height="@dimen/margin_24"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_cam"
+                            app:tint="@color/NewsTitleText"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="33dp"
+                            android:layout_centerInParent="true"
+                            android:alpha="0.3"
+                            android:backgroundTint="@color/ColorBlueGray800"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/content_coin_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_10"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_coin_anber"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/txt_coin_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/margin_5"
+                            android:fontFamily="@font/exo2_extra_bold"
+                            android:text="@string/_25"
+                            android:textColor="@color/ColorItemYellow"
+                            android:textSize="@dimen/text_13" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--
+
+-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_10"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/exo2_semi_bold"
+                        android:text="@string/nickname"
+                        android:textColor="@color/PrimaryColorText"
+                        android:textSize="@dimen/text_13"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_40"
+                    android:background="@drawable/shape_edit_text"
+                    android:fontFamily="@font/exo2_regular"
+                    android:padding="12.5dp"
+                    android:hint="@string/acest_nume_va_fi_afi_at"
+                    android:textColor="@color/NewsTitleText"
+                    android:textSize="@dimen/text_14"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_edit_enter"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_56"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_30"
+                android:background="@drawable/back_rectangle_rounded_50"
+                android:backgroundTint="@color/PrimaryBackground"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:padding="15dp"
+                android:text="@string/salvez"
+                android:textAllCaps="true"
+                android:textColor="@color/PrimaryText"
+                android:textSize="@dimen/text_13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="Datele contului"
+                android:textColor="@color/NewsTitleText"
+                android:textSize="@dimen/text_19"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_25"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_20"
+                    android:layout_marginEnd="@dimen/margin_20"
+                    android:background="@drawable/ic_background_blue_strong">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_22"
+                        android:layout_height="@dimen/margin_22"
+                        android:layout_centerInParent="true"
+                        android:backgroundTint="@color/PrimaryText"
+                        app:srcCompat="@drawable/ic_form"
+                        app:tint="@android:color/white"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="33dp"
+                        android:layout_centerInParent="true"
+                        android:alpha="0.3"
+                        android:backgroundTint="@color/PrimaryText"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="@string/nume"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/content_coin_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toEndOf="@+id/name"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_coin_anber"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/margin_5"
+                                android:fontFamily="@font/exo2_extra_bold"
+                                android:text="@string/_25"
+                                android:textColor="@color/ColorItemYellow"
+                                android:textSize="@dimen/text_13" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/edt_nume"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_40"
+                        android:background="@drawable/border_gray"
+                        android:fontFamily="@font/exo2_regular"
+                        android:paddingHorizontal="12.5dp"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColor="@color/ColorBlueGray800"
+                        android:textSize="@dimen/text_15" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_25"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_20"
+                    android:layout_marginEnd="@dimen/margin_20"
+                    android:background="@drawable/ic_background_blue_strong">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_22"
+                        android:layout_height="@dimen/margin_22"
+                        android:layout_centerInParent="true"
+                        android:backgroundTint="@color/PrimaryText"
+                        app:srcCompat="@drawable/ic_person"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="@string/gen"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/llEditProfileCoinGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_coin_anber" />
+
+                            <TextView
+                                android:id="@+id/txtEditProfileCoinGender"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/margin_5"
+                                android:fontFamily="@font/exo2_extra_bold"
+                                android:text="@string/_25"
+                                android:textColor="@color/ColorItemYellow"
+                                android:textSize="@dimen/text_12" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/spn_gen"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_40"
+                        android:background="@drawable/border_gray"
+                        android:fontFamily="@font/exo2_regular"
+                        android:paddingHorizontal="12.5dp"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColor="@color/ColorBlueGray800"
+                        android:textSize="@dimen/text_15" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_25"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_20"
+                    android:layout_marginEnd="@dimen/margin_20"
+                    android:background="@drawable/ic_background_blue_strong">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_22"
+                        android:layout_height="@dimen/margin_22"
+                        android:layout_centerInParent="true"
+                        android:backgroundTint="@color/PrimaryText"
+                        app:srcCompat="@drawable/ic_calendary"
+                        tools:ignore="ContentDescription"
+                        app:tint="@color/ColorWhitte" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="@string/data_na_terii"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/llEditProfileCoinBirthdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_coin_anber" />
+
+                            <TextView
+                                android:id="@+id/txtEditProfileCoinBirthdate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/margin_5"
+                                android:fontFamily="@font/exo2_extra_bold"
+                                android:text="@string/_25"
+                                android:textColor="@color/ColorItemYellow"
+                                android:textSize="@dimen/text_12" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edt_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_40"
+                        android:background="@drawable/border_gray"
+                        android:fontFamily="@font/exo2_regular"
+                        android:paddingHorizontal="12.5dp"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="number"
+                        android:textColor="@color/ColorBlueGray800"
+                        android:textSize="@dimen/text_14" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_5"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_25"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/margin_20"
+                    android:layout_marginEnd="@dimen/margin_20"
+                    android:background="@drawable/ic_background_blue_strong">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_22"
+                        android:layout_height="@dimen/margin_22"
+                        android:layout_centerInParent="true"
+                        android:backgroundTint="@color/PrimaryText"
+                        app:srcCompat="@drawable/ic_locator_oval"
+                        tools:ignore="ContentDescription" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/exo2_semi_bold"
+                            android:text="@string/ora"
+                            android:textColor="@color/PrimaryColorText"
+                            android:textSize="@dimen/text_13"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/llEditProfileCoinAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/img_coin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_coin_anber" />
+
+                            <TextView
+                                android:id="@+id/txtEditProfileCoinAddress"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/margin_5"
+                                android:fontFamily="@font/exo2_extra_bold"
+                                android:text="@string/_25"
+                                android:textColor="@color/ColorItemYellow"
+                                android:textSize="@dimen/text_12" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/id_oras"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_40"
+                        android:background="@drawable/border_gray"
+                        android:fontFamily="@font/exo2_regular"
+                        android:paddingHorizontal="12.5dp"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColor="@color/ColorBlueGray800"
+                        android:textSize="@dimen/text_14"
+                        android:inputType="textPostalAddress"
+                        android:importantForAutofill="no"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_gravity="center_vertical"
+                android:paddingVertical="15dp"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"
+                android:fontFamily="@font/exo2_semi_bold"
+                android:text="@string/modific_datele_contului"
+                android:textColor="@color/TabBarSelected"
+                android:textSize="@dimen/text_13"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

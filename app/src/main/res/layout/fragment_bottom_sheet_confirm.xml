@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SecondBackground"
+    tools:context=".fragments.BottomSheetConfirmFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ColorBlueGray500"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:fontFamily="@font/exo2_semi_bold"
+            android:textColor="@color/ColorBlueGray700"
+            android:background="@drawable/back_rectangle_rounded_15"
+            android:gravity="start"
+            android:visibility="gone"
+            android:hint="@string/hint_of_report"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/ColorBlueGray200"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:maxLength="225"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/back_rectangle_rounded_15"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="18sp"
+            android:backgroundTint="@color/PrimaryBackground"
+            android:layout_marginBottom="15dp"
+            android:text="@string/send"/>
+
+    </LinearLayout>
+
+</FrameLayout>
